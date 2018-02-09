@@ -1,2 +1,18 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+  <div class="content">
+    <div class="form">
+      <%= form_with scope: :service, local: true do |form|%>
+      <p>Інформація про авто</p>
+      <p>
+        <%= form.select :role, options_for_select([["", ""], ["", ""]]. insert(0, "Марка")) %>
+        <%= form.select :role, options_for_select([["", ""], ["", ""]]. insert(0, "Модель")) %>
+        <%= form.select :role, options_for_select([["", ""], ["", ""]]. insert(0, "Рік випуску")) %>
+      </p>
+      <p>Що потрібно ремонтувати</p>
+        <%= form.text_area :text %>
+      </p>
+      <p>
+        <%= form.submit %>
+      </p>
+      <% end %>
+    </div>
+  </div>
