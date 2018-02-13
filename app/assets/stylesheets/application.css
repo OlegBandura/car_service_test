@@ -17,3 +17,7 @@
 .field_with_errors input{
   border-color: red
 }
+
+.error_message{
+  color: red;
+}

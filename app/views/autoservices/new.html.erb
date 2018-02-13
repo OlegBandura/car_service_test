@@ -1,5 +1,15 @@
 <div class="admin_form">
   <%= form_for :autoservice, url: autoservices_path do |form| %>
+  <% if @autoservice && @autoservice.errors.any? %>
+    <p>
+      <ul>
+      <% @autoservice.errors.full_messages.each do |message| %>
+        <li class="error_message"><%= message%></li>
+      <% end%>
+      </ul>
+    </p>
+  <% end %>
+
     <p>Інформація про автосервіс</p>
     <p>Назва автосервісу
     <%= form.text_field :name_service %></p>
@@ -12,6 +22,15 @@
 
 <div class="admin_form">
   <%= form_for :car, url: cars_path do |form| %>
+  <% if @auto && @auto.errors.any? %>
+    <p>
+      <ul>
+      <% @auto.errors.full_messages.each do |message| %>
+        <li class="error_message"><%= message%></li>
+      <% end%>
+      </ul>
+    </p>
+  <% end %>
     <p>Інформація про авто</p>
     <p>Марка
     <%= form.text_field :marka %></p>

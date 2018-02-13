@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   get 'home/index'
   get 'about/index'
 
-  resource :autoservices, only: [:new, :create]
+  get 'autoservices' => 'autoservices#new'
+  resource :autoservices, only: [:create]
   resource :cars, only: [:new, :create]
   resources :services
 

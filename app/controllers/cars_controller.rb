@@ -8,7 +8,7 @@ class CarsController < ApplicationController
     if @auto.valid?
       @auto.save
     else
-      render action: 'new'
+      render action: '../autoservices/new'
     end
   end
 
