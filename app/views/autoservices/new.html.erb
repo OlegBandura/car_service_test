@@ -1,0 +1,10 @@
+<div class="form">
+  <%= form_for :autoservice do |form| %>
+    <p>Інформація про автосервіс</p>
+    <p>Назва автосервісу
+    <%= form.text_field :name %></p>
+    <p>Місце знаходження автосервісу
+    <%= form.text_field :address %></p>
+    <p><%= form.submit %></p>
+  <% end %>
+</div>
