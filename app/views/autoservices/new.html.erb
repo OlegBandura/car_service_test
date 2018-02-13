@@ -1,10 +1,10 @@
 <div class="form">
-  <%= form_for :autoservice do |form| %>
+  <%= form_for :autoservice, url: autoservices_path do |form| %>
     <p>Інформація про автосервіс</p>
     <p>Назва автосервісу
-    <%= form.text_field :name %></p>
+    <%= form.text_field :name_service %></p>
     <p>Місце знаходження автосервісу
     <%= form.text_field :address %></p>
-    <p><%= form.submit %></p>
+    <p><%= form.submit 'Send'%></p>
   <% end %>
 </div>

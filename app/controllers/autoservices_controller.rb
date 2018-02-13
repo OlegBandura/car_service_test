@@ -3,6 +3,14 @@ class AutoservicesController < ApplicationController
   end
 
   def create
-    render plain: params[:autoservices]
+    @autoservice = Service.new(autoservice_params)
+    @autoservice.save
   end
+
+  private
+  def autoservice_params
+    params.require(:autoservice).permit(:name_service, :address)
+  end
+
+
 end

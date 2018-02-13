@@ -11639,3 +11639,1408 @@ Processing by AutoservicesController#new as HTML
 Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.0ms)
 
 
+Started POST "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:25:27 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/autoservices/new"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:26:06 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 47ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:26:09 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/autoservices/new"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:26:19 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 53ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:26:23 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/autoservices/new"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:26:25 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 61ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:26:31 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 62ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:26:32 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/autoservices/new"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:27:10 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:27:12 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MjbfFV26LvWtctzG7B2xrVqNnOwrtuhVBM4wTa2j1Z50DeKTMWdks77sLNZLkl6ZY6VM+2v6GUnY6jgI5EGbVg==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+  Rendering autoservices/create.html.erb within layouts/application
+  Rendered autoservices/create.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:27:50 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:27:51 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:27:54 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:27:55 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CLcAbpnmNnPgs76UG+hrlCUkJ+UMXkE2ixiUlmMWxBlOjD3o9Tt8NfMtToS8Z4SgHAz38kwSsCpXPJzTKvSK0Q==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+  Rendering autoservices/create.html.erb within layouts/application
+  Rendered autoservices/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:28:49 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CLcAbpnmNnPgs76UG+hrlCUkJ+UMXkE2ixiUlmMWxBlOjD3o9Tt8NfMtToS8Z4SgHAz38kwSsCpXPJzTKvSK0Q==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+  Rendering autoservices/create.html.erb within layouts/application
+  Rendered autoservices/create.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:28:51 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:28:52 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:28:52 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:28:53 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:31:29 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:31:32 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:31:35 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6l/mC9ZQlGi5pGJ937j88JJOU/vPwBK9GgUFLriRydysZNuNuo3eLqo6km14NxPEq2aD7I+M46HGIQ1r8XOHFA==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant AutoservicesController::Autoservices):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:32:02 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:32:06 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:32:07 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ysbhzb6PZzs3OQ29lpubGiu6pKBiU8/AJHkBU7I+74+M/dxL0lItfSSn/a0xFHQuEpJ0tyIfPtz4XQkW+9yhRw==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant AutoservicesController::Autoservices):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:32:55 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:32:56 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NDwz7WXhQOxDSCtBP+h4wws8WymVuOktQBVcv1i5NnVyBw5rCTwKqlDW21GYZ5f3MhSLPtX0GDGcMVT6EVt4vQ==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant AutoservicesController::Autoservice):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/" for 127.0.0.1 at 2018-02-13 16:35:13 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 52ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-13 16:36:13 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 315ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_autoservice_path' for #<#<Class:0x007f9439b66190>:0x007f9439157708>
+Did you mean?  new_autoservices_path
+               new_autoservices_url
+               new_service_path):
+    21:           <li><%= link_to "Головна", controller: "home" %></li>
+    22:           <li><%= link_to "Подати заявку на СТО", new_service_path %></li>
+    23:           <li><%= link_to "Про нас", controller: "about" %></li>
+    24:           <li><%= link_to "Додати автосервіси",  new_autoservice_path %></li>
+    25: 
+    26:         </ul>
+    27:       </div>
+  
+app/views/layouts/application.html.erb:24:in `_app_views_layouts_application_html_erb___4340921204040656138_70137294739580'
+Started GET "/" for 127.0.0.1 at 2018-02-13 16:36:21 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 46ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:36:22 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 54ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:36:24 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T1BkxaZaGsRTL2GCLeawMl3sS7EueyLVtq224h4wdmYlB4KkEHElCS+hh0wsfPPdPZ4O1D+9enlYNlLKfl8mgA==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant AutoservicesController::Autoservice):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:37:48 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:37:51 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 61ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:37:53 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6ZZVU1Ns4165X5dLiesvavLd8vRz4RHtfZrbxU2N0A2vrWjVP7GpGKrBZ1suZMBey/Ui4zOt4PGhvtOABG+exQ==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant AutoservicesController::Autoservices):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:39:33 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:39:36 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 41ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:39:37 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9Jboc9Ax9hbKAowdcjwKK/gEhHu2REP0zuAbj3I6N8yyrdX1vOy8UNmcfA3Vs+UfwSxUbPYIsugSxBPKO9h5BA==", "Autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant AutoservicesController::Autoservice):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:39:53 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:39:55 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 41ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:39:56 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 37ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:39:57 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YEK5+yX0go5dki/pPaGxexuGViPVWFLydms7CgdOpVwKFV+ak9+9QyEcySc8O/KUe/QTRsSeCl6Y8N8iZyH1ug==", "Autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant AutoservicesController::Autoservices):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:40:45 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:40:48 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 57ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:40:50 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4RCdzW77oI/CYoun8dZiCrFT95WkjLiykKrcH7IoTqCnK6BLAibqydH8e7dWWY0+iHsnguTASa5MjtRa+8oAaA==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant AutoservicesController::Autoservice):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:41:04 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:41:07 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:41:09 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 41ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:41:11 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P/qXOLFkUH3ysKryc6XFZVAUC9AqnmMGdsSYHyZgW/ZVrXFZB09vsI4+TDxyP4aKMGZOtTtYO6qYX3w3Rg8LEA==", "autoservice"=>{"name"=>"drfgh", "address"=>"rdfg"}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 187ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `autoservice' for #<AutoservicesController:0x007f9440b1a108>
+Did you mean?  autoservices_url):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:41:25 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:41:28 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 42ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:41:30 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 41ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:41:30 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gwYdktLaqQwPu0wSmsNR4veoe27Aj04ctQin4zPkobbpUfvzZPGWwXM1qtybWRINl9o+C9FJFrBbk0PLU4vxUA==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant AutoservicesController::Autoservice):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:42:59 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 37ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:43:01 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8Y+SxwvGgTiP4uWErWwI0ttQzSjFFwG5N6iKbigpJuy3tK9BZxvLfpx8FZQK4+fm4ngdP4Vb8KXrjIIrYctoJA==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant AutoservicesController::Autoservices):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:44:25 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:44:27 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 50ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:44:29 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EicPKUwD3HfNJ/LFT2fkMfUbDRJMrp0CxPU7AXtOktl4cOlI+ijjurGpFAtO/afelWlId11oxa4qbt8pGyHCPw==", "autoservice"=>{"name"=>"qwdf", "address"=>"esdf"}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant AutoservicesController::Autoservices):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:44:53 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-13 16:44:56 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:44:57 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:44:59 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G1wWFMPkR56KqxHImtRv2kw2iWKg3I9jZBU/QQ5n5ulxC/B1dc94U/Yl9wabTiw1LETMB7Ea18+Kjttpbgi2Dw==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant AutoservicesController::Autoservice):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:45:25 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:45:28 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:45:29 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zRt5Buna0qYpm6Rh6Whpf9VoCqrPkhWyPPqFJzhek8GLIESAhQeY4DoFVHFO54ZL7EDavY/e5K7g3o1icbzdCQ==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `new' for :autoservice:Symbol
+Did you mean?  next):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:45:48 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 44ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:45:49 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5l0wBnbamM1V9CCtjxtCcUhhFMgivbIehStna08pKrugZg2AGgfSi0Zq0L0olK1FcUnE32LxQwJZD28uBstkcw==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/autoservices_controller.rb:6:in `next'
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:46:06 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:46:08 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:46:09 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:46:10 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rYxursa8fTW9PKM7bkjfkPlnuLpiGO4qsjFbaeXBUGDH24jPcJdC+MGyRfVv0px/mRX933PetoZcqr9Bha4Ahg==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 170ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `autoservice' for #<AutoservicesController:0x007f942cc1e270>
+Did you mean?  autoservices_url):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:46:30 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:46:32 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"704liohxDTF9vCCSRfTO5YHutc5kh5c4yLkKDptLEm2pdRgM5KxHd24i0ILieyHRuMZl2STLZiQUnQJL0qlcpQ==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `new' for "http://localhost:3000/autoservices":String
+Did you mean?  next):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 16:46:49 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:46:51 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Autoservice):
+    1: <div class="form">
+    2:   <%= form_for Autoservice, url: autoservices_path do |form| %>
+    3:     <p>Інформація про автосервіс</p>
+    4:     <p>Назва автосервісу
+    5:     <%= form.text_field :name %></p>
+  
+app/views/autoservices/new.html.erb:2:in `_app_views_autoservices_new_html_erb___3909161991106286951_70137295760140'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:47:25 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:48:26 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 39ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:48:28 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gD6UANmK3zLmhRTM/f1KNbm4yD8cwzigQywBQvcf1wvGBamGtVeVdPUb5NxacqUBgJAYKFyPybyfCAkHvv2Zww==", "autoservice"=>{"name"=>"d", "address"=>"f"}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant AutoservicesController::Autoservice):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started POST "/__web_console/repl_sessions/9c5e44be7d4436f9069b3ca6560c99c5/trace" for 127.0.0.1 at 2018-02-13 16:48:42 +0200
+Started POST "/__web_console/repl_sessions/9c5e44be7d4436f9069b3ca6560c99c5/trace" for 127.0.0.1 at 2018-02-13 16:48:44 +0200
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:54:31 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 39ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:54:32 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"slDgKimiyzpxgbvdEYZ0jgDtPJJFDNhY3xE6YWukpzH0a92sRX+BfGIfS822CZu6OcXshQVAKUQDNTIkIkbp+Q==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant AutoservicesController::Autoservice):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:55:15 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 32ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:55:20 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lzNI6HOMqBQB9ioZXIeJjLpVw7eVREULokwIx5UFf+TRCHVuH1HiUhJo2gn7CGa4g30ToNUItBd+aACC3OcxLA==", "autoservice"=>{"name"=>"dd", "address"=>"ff"}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 99ms (ActiveRecord: 8.3ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'name' for Service.):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:55:45 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 48ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:55:46 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MMYocEv7ZbtnCKQ6GVoLmZLPrNXqEdCiXaW9lKYSWwp2/RX2JyYv/XSWVCq+1eStq+d8wqpdIb6BgbXR7/AVwg==", "autoservice"=>{"name"=>"", "address"=>""}, "commit"=>"Send"}
+Unpermitted parameter: :name
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (39.0ms)[0m  [1m[32mINSERT INTO "services" ("address", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["address", ""], ["created_at", "2018-02-13 14:55:46.854025"], ["updated_at", "2018-02-13 14:55:46.854025"]]
+  [1m[35m (10.2ms)[0m  [1m[35mCOMMIT[0m
+  Rendering autoservices/create.html.erb within layouts/application
+  Rendered autoservices/create.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 102ms (Views: 32.4ms | ActiveRecord: 49.5ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:55:54 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:55:57 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EYpUv6X+hfcv7P6EZBp31M8L9Zh1riusn+tvjwp/GT1XsWk5ySPPsTxyDpTDlZjg9iMljzXi2rBDz2fKQ51X9Q==", "autoservice"=>{"name"=>"gff", "address"=>"vv"}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'name' for Service.):
+  
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 16:56:41 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 44ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 16:56:50 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ruu/K/DmzXoJdPyJhV/AkH7F2RBlXBturj+v35sCrwXo0IKtnDuHPBrqDJki0C+kR+0JByUQ6nJyG6ea0uDhzQ==", "autoservice"=>{"name"=>"service", "address"=>"Lviv"}, "commit"=>"Send"}
+Unpermitted parameter: :name
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "services" ("address", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["address", "Lviv"], ["created_at", "2018-02-13 14:56:50.617674"], ["updated_at", "2018-02-13 14:56:50.617674"]]
+  [1m[35m (26.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering autoservices/create.html.erb within layouts/application
+  Rendered autoservices/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 97ms (Views: 50.2ms | ActiveRecord: 27.3ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 17:04:27 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 47ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 17:04:30 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WxxUEfiBYhX9TnpFiMi83k3MwcrmQ1Cgwq+xLrCWNucxS7JwTqpd2IHAnIuJUv8xLb6Er/eFCAwsNFUG0PlmAQ==", "autoservice"=>{"name"=>"ddfdd", "address"=>"fgghgh"}, "commit"=>"Send"}
+Unpermitted parameter: :name
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "services" ("address", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["address", "fgghgh"], ["created_at", "2018-02-13 15:04:30.843075"], ["updated_at", "2018-02-13 15:04:30.843075"]]
+  [1m[35m (40.8ms)[0m  [1m[35mCOMMIT[0m
+  Rendering autoservices/create.html.erb within layouts/application
+  Rendered autoservices/create.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 89ms (Views: 40.8ms | ActiveRecord: 42.1ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 17:08:36 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 47ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 17:08:38 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5vnsOWAIIfJVc6Wz0U8w9DYpOwdmyKxhyk/7XG75o0OMrgpY1iMePyn9Q33Q1XMbVlt+YncO9M0k1B90DpbzpQ==", "autoservice"=>{"name"=>"ddd", "address"=>""}, "commit"=>"Send"}
+Unpermitted parameter: :name
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "services" ("address", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["address", ""], ["created_at", "2018-02-13 15:08:38.441023"], ["updated_at", "2018-02-13 15:08:38.441023"]]
+  [1m[35m (39.1ms)[0m  [1m[35mCOMMIT[0m
+  Rendering autoservices/create.html.erb within layouts/application
+  Rendered autoservices/create.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 84ms (Views: 37.8ms | ActiveRecord: 39.9ms)
+
+
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 17:09:55 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 17:10:00 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 17:10:02 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 38ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 17:10:04 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Tn0NQV+yvHWNwDLuXAm2ByWXHSNeNnzg0snfkG6ic8QkKusg6ZmDuPFO1CBdk/XoReVYRk/wJEw8Uju4Ds0jIg==", "autoservice"=>{"name_service"=>"fff", "address"=>"ggg"}, "commit"=>"Send"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "services" ("name_service", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name_service", "fff"], ["address", "ggg"], ["created_at", "2018-02-13 15:10:04.807056"], ["updated_at", "2018-02-13 15:10:04.807056"]]
+  [1m[35m (109.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering autoservices/create.html.erb within layouts/application
+  Rendered autoservices/create.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 144ms (Views: 27.8ms | ActiveRecord: 110.5ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 17:10:15 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 17:10:27 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KhvC4/8bPHuI4gUiF9Mxx5C1ShpRq91GPN3sZxDvXk1ATCSCSTADtvRs4+wWSXIo8McPf0BtherSRghPcIAOqw==", "autoservice"=>{"name_service"=>"name service", "address"=>"Kyiv"}, "commit"=>"Send"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "services" ("name_service", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name_service", "name service"], ["address", "Kyiv"], ["created_at", "2018-02-13 15:10:27.539875"], ["updated_at", "2018-02-13 15:10:27.539875"]]
+  [1m[35m (29.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering autoservices/create.html.erb within layouts/application
+  Rendered autoservices/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 82ms (Views: 44.5ms | ActiveRecord: 30.3ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 17:10:30 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 17:11:01 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kH9EYZZFDrzPz0Wocn4/bxtqQjWX6uNCAfa9r65+bvH6KKIAIG4xcbNBo2Zz5HyAexgHUIYsu+7vbVmHzhE+Fw==", "autoservice"=>{"name_service"=>"qwertfhuip", "address"=>"q23w4er5t6u8io"}, "commit"=>"Send"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "services" ("name_service", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name_service", "qwertfhuip"], ["address", "q23w4er5t6u8io"], ["created_at", "2018-02-13 15:11:01.442016"], ["updated_at", "2018-02-13 15:11:01.442016"]]
+  [1m[35m (42.0ms)[0m  [1m[35mCOMMIT[0m
+  Rendering autoservices/create.html.erb within layouts/application
+  Rendered autoservices/create.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 83ms (Views: 34.3ms | ActiveRecord: 43.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 17:11:29 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 17:11:31 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QBlvIf6DjBYXjxit/vNsQqsyhL8CmxjPBPgrBX/hUW8qTolASKiz22sB/mP/aS+ty0DB2hNdQGPqY88tH44BiQ==", "autoservice"=>{"name_service"=>"s", "address"=>"d"}, "commit"=>"Send"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "services" ("name_service", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name_service", "s"], ["address", "d"], ["created_at", "2018-02-13 15:11:31.430587"], ["updated_at", "2018-02-13 15:11:31.430587"]]
+  [1m[35m (33.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering autoservices/create.html.erb within layouts/application
+  Rendered autoservices/create.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 92ms (Views: 32.5ms | ActiveRecord: 40.5ms)
+
+
+Started GET "/services/new" for 127.0.0.1 at 2018-02-13 17:12:16 +0200
+Processing by ServicesController#new as HTML
+  Rendering services/new.html.erb within layouts/application
+  Rendered services/new.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 62ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
