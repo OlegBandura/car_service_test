@@ -18,9 +18,11 @@
       </div>
       <div class="sidebar">
         <ul>
-         <li><%= link_to "Головна", service_path(service) %>Головна</li>
-         <li><a href="">Подати заявку на СТО</a></li>
-         <li><a href="">Категорії</a></li>
+          <li><%= link_to "Головна", controller: "home" %></li>
+          <li><%= link_to "Подати заявку на СТО", controller: "services" %></li>
+          <li><%= link_to "Про нас", controller: "about" %></li>
+          <li><%= link_to "Admin", admin_path(@admin) %></li>
+
         </ul>
       </div>
       <%= yield %>

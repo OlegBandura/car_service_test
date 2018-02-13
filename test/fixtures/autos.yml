@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  marka: 
+  model: 
+  auto_year: MyString
+
+two:
+  marka: 
+  model: 
+  auto_year: MyString

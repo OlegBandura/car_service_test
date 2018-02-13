@@ -1,0 +1,2 @@
+class AutoDestroy < ApplicationRecord
+end
