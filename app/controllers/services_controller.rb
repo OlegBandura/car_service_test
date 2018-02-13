@@ -3,6 +3,6 @@ class ServicesController < ApplicationController
   end
 
   def create
+    render plain: params[:service]
   end
-  
 end
