@@ -5,7 +5,11 @@ class CarsController < ApplicationController
 
   def create
     @auto = Auto.new(auto_params)
-    @auto.save
+    if @auto.valid?
+      @auto.save
+    else
+      render action: 'new'
+    end
   end
 
   private

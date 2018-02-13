@@ -13833,3 +13833,821 @@ Processing by AutoservicesController#new as HTML
 Completed 200 OK in 53ms (Views: 51.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:15:35 +0200
+  [1m[35m (9.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (75.0ms)
+Completed 500 Internal Server Error in 1109ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/olko/rails/car_service/app/assets/stylesheets/new.html.erb:3: syntax error, unexpected ')'
+...le, url: articles_path do |f| ).to_s)
+...                               ^
+/home/olko/rails/car_service/app/assets/stylesheets/new.html.erb:18: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/assets/stylesheets/new.html.erb:3: syntax error, unexpected ')'
+app/assets/stylesheets/new.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___2963073881385111471_40403240'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:17:55 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/olko/rails/car_service/app/assets/stylesheets/new.html.erb:3: syntax error, unexpected ')'
+...le, url: articles_path do |f| ).to_s)
+...                               ^
+/home/olko/rails/car_service/app/assets/stylesheets/new.html.erb:18: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/assets/stylesheets/new.html.erb:3: syntax error, unexpected ')'
+app/assets/stylesheets/new.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___2963073881385111471_70338662182520'
+Started GET "/" for 127.0.0.1 at 2018-02-13 19:18:07 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/olko/rails/car_service/app/assets/stylesheets/new.html.erb:3: syntax error, unexpected ')'
+...le, url: articles_path do |f| ).to_s)
+...                               ^
+/home/olko/rails/car_service/app/assets/stylesheets/new.html.erb:18: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/assets/stylesheets/new.html.erb:3: syntax error, unexpected ')'
+app/assets/stylesheets/new.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___2963073881385111471_70338667799500'
+Started GET "/" for 127.0.0.1 at 2018-02-13 19:18:09 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/olko/rails/car_service/app/assets/stylesheets/new.html.erb:3: syntax error, unexpected ')'
+...le, url: articles_path do |f| ).to_s)
+...                               ^
+/home/olko/rails/car_service/app/assets/stylesheets/new.html.erb:18: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/assets/stylesheets/new.html.erb:3: syntax error, unexpected ')'
+app/assets/stylesheets/new.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___2963073881385111471_70338666699060'
+Started GET "/" for 127.0.0.1 at 2018-02-13 19:18:43 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/olko/rails/car_service/app/assets/stylesheets/new.html.erb:3: syntax error, unexpected ')'
+...le, url: articles_path do |f| ).to_s)
+...                               ^
+/home/olko/rails/car_service/app/assets/stylesheets/new.html.erb:18: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/assets/stylesheets/new.html.erb:3: syntax error, unexpected ')'
+app/assets/stylesheets/new.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___2963073881385111471_70338667219880'
+Started GET "/" for 127.0.0.1 at 2018-02-13 19:19:08 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:19:13 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 19:19:16 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vjlmNNOszPUzDyKw0YQrSZ0v3HWHoEMhLUEPz2per8XUboBVZYfzOE+BxH7QHmim/V2ZEJZmG43D2uvnCjH/Iw==", "autoservice"=>{"name_service"=>"ss", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Unknown validator: 'PresenseValidator'):
+  
+app/models/service.rb:2:in `<class:Service>'
+app/models/service.rb:1:in `<top (required)>'
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:20:32 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 19:20:33 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UJADXUEywiZO3gsZW6GyF6WTyC3bjH4pofMLxo/mDBsWqz7bLe+IYF1A+wn8Ll0jnLsYOpvAjzV91wODxgRC0w==", "autoservice"=>{"name_service"=>"d", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Unknown validator: 'PresenseValidator'):
+  
+app/models/service.rb:2:in `<class:Service>'
+app/models/service.rb:1:in `<top (required)>'
+app/controllers/autoservices_controller.rb:6:in `create'
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 19:22:04 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UJADXUEywiZO3gsZW6GyF6WTyC3bjH4pofMLxo/mDBsWqz7bLe+IYF1A+wn8Ll0jnLsYOpvAjzV91wODxgRC0w==", "autoservice"=>{"name_service"=>"d", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Unknown validator: 'PresenseValidator'):
+  
+app/models/service.rb:2:in `<class:Service>'
+app/models/service.rb:1:in `<top (required)>'
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 19:22:39 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:22:44 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 19:22:46 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2Npxn/T2DdSMGib1DLsjvElAkpNWW4NDwKbiD9TlLlCe4UwZmCtHkp+E1uWrNMyIcGhChBYXcl8cgupKnQdgmA==", "autoservice"=>{"name_service"=>"dd", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/olko/rails/car_service/app/models/service.rb:3: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  validates :address, presense: true
+             ^):
+  
+app/models/service.rb:3: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:22:54 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 19:22:56 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jiIj6Q31zmrndkNf1NoSl4tyy4RvN5OObiVDH5YbddXIGR5vYSiELPTos09zVf2jslobky97YpKyAUta3/k7HQ==", "autoservice"=>{"name_service"=>"d", "address"=>""}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/olko/rails/car_service/app/models/service.rb:3: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  validates :address, presense: true,
+             ^
+/home/olko/rails/car_service/app/models/service.rb:3: Can't assign to true):
+  
+app/models/service.rb:3: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+app/models/service.rb:3: Can't assign to true
+app/controllers/autoservices_controller.rb:6:in `create'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:23:49 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 19:23:51 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q1hUaQLBURlZMyTYV0UlsMWcd1JLdy7RDv9tx45Y+QAFY2nvbhwbX0qt1MjwysqE/LSnRQs7383S22WCx7q3yA==", "autoservice"=>{"name_service"=>"d", "address"=>""}, "commit"=>"Send"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 246ms (Views: 44.4ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:23:57 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 82ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 19:23:58 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9fQYS7zofzJg2Gy+6ksrCNM2Jgf/RLfFrrx+yS28RsSzzyXN0DU1dHNGnK5NxMQ86h72EL8IRtlymHaMZF4IDA==", "autoservice"=>{"name_service"=>"", "address"=>"d"}, "commit"=>"Send"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 59ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices" for 127.0.0.1 at 2018-02-13 19:25:46 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/autoservices"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:25:49 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 73ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 19:25:51 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"akTOsY/TnKSClqwAXewzpjJn+faKtWh4vJjv7x4yg54sf/M34w7W4pEIXBD6Y9ySC08p4cr5mWRgvOeqV9DNVg==", "autoservice"=>{"name_service"=>"c", "address"=>""}, "commit"=>"Send"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 42ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 19:26:02 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3owMclftFyFbUYdLTZkVzM4r70Xa/qCIKQ+XPt78PSGYtzH0OzBdZ0jPd1vqFvr49wM/UpqyUZT1K597lx5z6Q==", "autoservice"=>{"name_service"=>"cd", "address"=>""}, "commit"=>"Send"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 54ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:26:10 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:28:44 +0200
+  
+SyntaxError (/home/olko/rails/car_service/app/controllers/cars_controller.rb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+      render :action 'new'
+                      ^):
+  
+app/controllers/cars_controller.rb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:28:57 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:28:59 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+5XR+sOPXwyhX851cryOb7qSCIF/5uEm8SAShmqMDtG9rux8r1IVSrLBPmXVM2Fbg7rYlj+qEDotBBrDI25AGQ==", "car"=>{"marka"=>"", "model"=>"f", "autoYear"=>""}, "commit"=>"Send auto"}
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 4.6ms)
+
+
+  
+ActionView::MissingTemplate (Missing template cars/new, application/new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/olko/rails/car_service/app/views"
+):
+  
+app/controllers/cars_controller.rb:11:in `create'
+Started GET "/" for 127.0.0.1 at 2018-02-13 19:30:43 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 41ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:30:45 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:30:47 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6teW9nww8uVG+NpNTsKMzWxuxjpDfM08edVyWh9MENAoz53ZY6Slkwrj5VLF/YmstgaUdldsmupTHoRDUS/+wg==", "car"=>{"marka"=>"d", "model"=>"", "autoYear"=>""}, "commit"=>"Send auto"}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template cars/cars, application/cars with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/olko/rails/car_service/app/views"
+):
+  
+app/controllers/cars_controller.rb:11:in `create'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:32:05 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:32:07 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Tnr0zjrubyVRSITJw4WAOH9rfNw3yIFhFbYHj0mLGW0IQclIVjMlY0LWdNlkCm8MRkOsy3eEcH3Jkg/KAGlXpQ==", "car"=>{"marka"=>"s", "model"=>"", "autoYear"=>""}, "commit"=>"Send auto"}
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template cars/autoservices/new, application/autoservices/new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/olko/rails/car_service/app/views"
+):
+  
+app/controllers/cars_controller.rb:11:in `create'
+Started GET "/cars" for 127.0.0.1 at 2018-02-13 19:32:21 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/cars"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-13 19:32:24 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:32:25 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 40ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:32:26 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mjb8krVQp2DewmYc68cbqPWp+yO0VwmsQcSJsQrhcG1YLve9qsTwFpLZWQNg+B7JL8Gpb6BHXnprD3+oRIKefw==", "car"=>{"marka"=>"", "model"=>"", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering cars/create.html.erb within layouts/application
+  Rendered cars/create.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 58ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:32:32 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mjb8krVQp2DewmYc68cbqPWp+yO0VwmsQcSJsQrhcG1YLve9qsTwFpLZWQNg+B7JL8Gpb6BHXnprD3+oRIKefw==", "car"=>{"marka"=>"s", "model"=>"", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering cars/create.html.erb within layouts/application
+  Rendered cars/create.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 59ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:32:52 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mjb8krVQp2DewmYc68cbqPWp+yO0VwmsQcSJsQrhcG1YLve9qsTwFpLZWQNg+B7JL8Gpb6BHXnprD3+oRIKefw==", "car"=>{"marka"=>"s", "model"=>"dd", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering cars/create.html.erb within layouts/application
+  Rendered cars/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 43ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:33:03 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mjb8krVQp2DewmYc68cbqPWp+yO0VwmsQcSJsQrhcG1YLve9qsTwFpLZWQNg+B7JL8Gpb6BHXnprD3+oRIKefw==", "car"=>{"marka"=>"s", "model"=>"dd", "autoYear"=>"sss"}, "commit"=>"Send auto"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (30.9ms)[0m  [1m[32mINSERT INTO "autos" ("marka", "model", "autoYear", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["marka", "s"], ["model", "dd"], ["autoYear", "sss"], ["created_at", "2018-02-13 17:33:03.831665"], ["updated_at", "2018-02-13 17:33:03.831665"]]
+  [1m[35m (24.4ms)[0m  [1m[35mCOMMIT[0m
+  Rendering cars/create.html.erb within layouts/application
+  Rendered cars/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 96ms (Views: 33.6ms | ActiveRecord: 55.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-13 19:33:23 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 46ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:33:24 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 36ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:33:25 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"buVIV8g1I0i5GwXMKqT9hBp0pYBaaG9Kt95tnjqp/Des/UN416F0PvUAOtOhm/jlwBz3zE54OJydFZuHdMoSJQ==", "car"=>{"marka"=>"ss", "model"=>"", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering cars/create.html.erb within layouts/application
+  Rendered cars/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 61ms (Views: 31.3ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:34:12 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 52ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:34:14 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zZIV65h8It80e8W3jWzvzo1ZWNkd8EkIfb35gjwtt/2LqSht9KFomSflNacq4wD6tHGIzl28uBShmfHHdc/5NQ==", "car"=>{"marka"=>"dd", "model"=>"", "autoYear"=>""}, "commit"=>"Send auto"}
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template cars/autoservices/new, application/autoservices/new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/olko/rails/car_service/app/views"
+):
+  
+app/controllers/cars_controller.rb:11:in `create'
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:34:30 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 40ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:34:32 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j5cfmqEjgN5JfKbNoQLxO7bpf2Z3DE3KnqFtPWrc/y7JrCIczf7KmFriVt0GjR4Pj8GvcTdAvNZChWV4Iz6x5g==", "car"=>{"marka"=>"d", "model"=>"", "autoYear"=>""}, "commit"=>"Send auto"}
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template cars/autoservices/new, application/autoservices/new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/olko/rails/car_service/app/views"
+):
+  
+app/controllers/cars_controller.rb:11:in `create'
+Started GET "/cars" for 127.0.0.1 at 2018-02-13 19:34:50 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/cars"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-13 19:34:53 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:34:54 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:34:56 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e03hZJM5D0IZ+snEgKy3+cdoPCrMMW+r7ETw2IvpqBu5VepLjK1YNFXh9tsLk7KYHQBuZtghOH3GjwbBxYpGCQ==", "car"=>{"marka"=>"dd", "model"=>"", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 52ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:34:58 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l88+sbg3hLd76XgC9Y5cJtnRZuF8WjuyQ0AjK0QgQVvR9AM31OrO8Wh3iBJSAbMS4Pm29jwWyq6fZCtuDcIPkw==", "car"=>{"marka"=>"", "model"=>"ff", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 39ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:36:20 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 79ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:36:20 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:36:23 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UwUrpO52v15visfmtLOlvHHWCaEj+kvTdWCf/YElSN8VPhYigqv1GHwUN/YTPEqISP7ZtmO2us+pRJe4yMcGFw==", "car"=>{"marka"=>"ff", "model"=>"", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 38ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 19:36:25 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"58Ir2Dsh0q/GNLHHdkJU3gUN9WBXY2QTgjmjWKqGf0yh+RZeV/yY6dWqQdfRzbvqPCUldxcvlQ9eHasd42QxhA==", "autoservice"=>{"name_service"=>"ff", "address"=>""}, "commit"=>"Send"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 54ms (Views: 29.8ms | ActiveRecord: 8.3ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:36:29 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CBdgVz9V86mFrZhkronrqEnGkTR3d8Qn/t9WqbrwVrxOLF3RU4i575YzaHQJBgSccO5BIzc7NTsi+17s8xIYdA==", "car"=>{"marka"=>"", "model"=>"ss", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 36ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:36:31 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IHJJl2elnWbG3dGwXBE3ovwch4VpWLPcvw4Y2LcjOFVmSXQRC3jXINVDIaD7ntiWxTRXkikUQsBjKhCd/sF2nQ==", "car"=>{"marka"=>"", "model"=>"ss", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 49ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 19:36:37 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"beZ7/2zuzvLQw5E/cwe9xXzQEq7I8ifVt5KcAekDTRYr3UZ5ADOEtMNdYS/UiFLxRfjCuYi+1slrtpREoOED3g==", "autoservice"=>{"name_service"=>"ss", "address"=>""}, "commit"=>"Send"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 57ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:38:12 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 73ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:38:14 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YHMO4xJWuaTVz7BUWNuxYfg95EFcdHSdzzRNUoee+aWiawXMDcLu0pnUj0vT5LQAIlW2DUhkI0vl/7tLyf0Xtw==", "car"=>{"marka"=>"", "model"=>"dd", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 62ms (Views: 40.0ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:38:36 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 78ms (Views: 76.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:38:36 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:38:37 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PA8XY8W//OQPOlXNay8M18Dps4pz9OWkexPBk29v1GZ6NCrlqWK2ohykpd3MoOPj+cFjnTO4FLinN8nWJo2arg==", "car"=>{"marka"=>"", "model"=>"d", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 55ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:38:40 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fCSXeUIdq3GM/qTj7vSyfAtnnSOOMUmzl9xw5UVcIOU6H6r/LsDhN59gVPNJe11IMk9NNM59uK9L+HigDL5uLQ==", "car"=>{"marka"=>"s", "model"=>"", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 45ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:38:42 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YJ9bMtGntKJrOd+i573PrCaVnpSGO1h6H6XPDQpp2I8mpGa0vXr+5HinL7JAMiCYH71Og8Z3qWbDgcdIQ4uWRw==", "car"=>{"marka"=>"", "model"=>"", "autoYear"=>"d"}, "commit"=>"Send auto"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 41ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:38:47 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5NAy9t/voijdq9nLn77wimdfGaq4I1z50ZTNA+lbURyi6w9wszLobs41Kds4MR++XnfJvfhvreUNsMVGoLkf1A==", "car"=>{"marka"=>"", "model"=>"azsxdcfvg", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 40ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:38:53 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PInW2nSh1q4nFYKl4iCjb6TWfMh4BTI7yV+ey3HozJ56sutcGHyc6DSLcrVFr0xbnf6s3zhJwycVe5aOOAqCVg==", "car"=>{"marka"=>"f", "model"=>"", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 51ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:40:27 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 67ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:40:27 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:40:29 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4i6SBi9x66bI8WK4Ffv9FOxv4VQp6tm5uuRTIHDiLoWkFa+AQ6yh4NtvkqiydBIg1UcxQ2mmKKVmwFtlOQBgTQ==", "car"=>{"marka"=>"d", "model"=>"", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 44ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:40:31 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UL9nTHmpRCSX2LyUanxhpuBLcTODtzDBJsK+rqji5+YWhFrKFXQOYoRGTITN846S2WOhJMP7wd365rbr4QCpLg==", "car"=>{"marka"=>"", "model"=>"d", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 35ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:40:43 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 19:40:45 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uDtTF4qyNHzWi9HIvd4UDM1QF+Mx6gqmftk7YraLWv/SbLV2PJkLsaoFNwa8RFfjrSJShiAsUgqQQt9K1uQKGQ==", "autoservice"=>{"name_service"=>"", "address"=>"d"}, "commit"=>"Send"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 75ms (Views: 41.4ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:42:23 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 48ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:42:26 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 39ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:42:27 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"44HcOXjwS+/LK4UDljN+90KskrvMuQUhg0bzwiV1ayWluuG/FC0Bqdi1dRMxvJHDe4RCrIz19D1fYvuHbJcl7Q==", "car"=>{"marka"=>"", "model"=>"d", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 43ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:42:36 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e4jYuIDRdexmhS3y85r5/4bTPDNg+pP223Dx3cTD7Xc9s+U+7Aw/qnUb3eJUFRbLv/vsJCC2YuoHVPmYjSGjvw==", "car"=>{"marka"=>"", "model"=>"", "autoYear"=>"ttt"}, "commit"=>"Send auto"}
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 43ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:42:42 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LeB6yDm61p/EZuuN6jviYEoNztrQEsO59GV5fTJtxalr20dOVWec2df4G51NtA1UcyUezZBeMqUoQXE4e4+LYQ==", "car"=>{"marka"=>"dd", "model"=>"", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 43ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:42:44 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c0UCxRDkNlECDed5VkWRwTE+z0Ip0DNKG3tBW6LVED81fj9DfDl8FxGTF2nxyn71CBYfVWmcwlbHX0ke6zde9w==", "car"=>{"marka"=>"", "model"=>"ffff", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 39ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cars" for 127.0.0.1 at 2018-02-13 19:42:47 +0200
+Processing by CarsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"263i418dhFbFfd8uboJFlczpniRt6cgx5630FVcAfPudlt9lM8DOENbjLz7JDaqh9cFOMy2lOS07ifxQHuIyMw==", "car"=>{"marka"=>"d", "model"=>"d", "autoYear"=>""}, "commit"=>"Send auto"}
+  Rendering cars/new.html.erb within layouts/application
+  Rendered cars/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 37ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autoservices/new" for 127.0.0.1 at 2018-02-13 19:42:50 +0200
+Processing by AutoservicesController#new as HTML
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 44ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/autoservices" for 127.0.0.1 at 2018-02-13 19:42:53 +0200
+Processing by AutoservicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8xKTD7NyndpXCzpQEI+Z2uIi4OlWmstpfhUKOzAjlGmZRXVuBVmiFyuF3J4RFdo1glCljEdck8WQju4TUEzEjw==", "autoservice"=>{"name_service"=>"yy", "address"=>""}, "commit"=>"Send"}
+  Rendering autoservices/new.html.erb within layouts/application
+  Rendered autoservices/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-13 19:43:01 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+

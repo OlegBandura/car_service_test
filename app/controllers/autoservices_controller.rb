@@ -4,7 +4,11 @@ class AutoservicesController < ApplicationController
 
   def create
     @autoservice = Service.new(autoservice_params)
-    @autoservice.save
+    if @autoservice.valid?
+      @autoservice.save
+    else
+      render action: 'new'
+    end
   end
 
   private
