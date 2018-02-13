@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'about/index'
 
   resource :autoservices, only: [:new, :create]
+  resource :cars, only: [:new, :create]
   resources :services
 
 

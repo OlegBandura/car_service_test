@@ -1,4 +1,4 @@
-<div class="form">
+<div class="admin_form">
   <%= form_for :autoservice, url: autoservices_path do |form| %>
     <p>Інформація про автосервіс</p>
     <p>Назва автосервісу
@@ -6,5 +6,19 @@
     <p>Місце знаходження автосервісу
     <%= form.text_field :address %></p>
     <p><%= form.submit 'Send'%></p>
+  <% end %>
+</div>
+
+
+<div class="admin_form">
+  <%= form_for :car, url: cars_path do |form| %>
+    <p>Інформація про авто</p>
+    <p>Марка
+    <%= form.text_field :marka %></p>
+    <p>Модель
+    <%= form.text_field :model %></p>
+    <p>Рік випуску
+    <%= form.text_field :autoYear %></p>
+    <p><%= form.submit 'Send auto'%></p>
   <% end %>
 </div>

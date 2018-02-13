@@ -11,6 +11,4 @@ class AutoservicesController < ApplicationController
   def autoservice_params
     params.require(:autoservice).permit(:name_service, :address)
   end
-
-
 end
