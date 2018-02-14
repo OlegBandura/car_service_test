@@ -10,24 +10,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180213092806) do
+ActiveRecord::Schema.define(version: 20180214120925) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "autoDestroys", force: :cascade do |t|
-    t.string "marka"
-    t.string "model"
     t.string "carYear"
     t.text "breakdown"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "id_model"
+    t.integer "id_marka"
   end
 
   create_table "autos", force: :cascade do |t|
-    t.string "marka"
     t.string "model"
-    t.string "autoYear"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "id_marka"
+  end
+
+  create_table "cars", force: :cascade do |t|
+    t.string "marka"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

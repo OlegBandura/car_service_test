@@ -4,16 +4,16 @@ class CarsController < ApplicationController
   end
 
   def create
-    @auto = Auto.new(auto_params)
+    @auto = Car.new(auto_marka_params)
     if @auto.valid?
       @auto.save
     else
-      render action: '../autoservices/new'
+      render action: 'new'
     end
   end
 
   private
-  def auto_params
-    params.require(:car).permit(:marka, :model, :autoYear)
+  def auto_marka_params
+    params.require(:car).permit(:marka)
   end
 end

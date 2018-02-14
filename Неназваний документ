@@ -1,0 +1,109 @@
+qw(document).on('change','.f_freeproduct #category_id',function() {
+    var fr=qw(this).closest('#fSmbOrder');
+	var sr=fr.find('#order_product');
+	var gc=fr.find('.group-categories');
+	var pa=fr.find('.product_area');
+	var data={};
+	data['action']='getQwrappData';
+	data['action_']='getProducts';
+	data['id']=qw(this).val();
+	qw.ajax({
+		url: site_url+"/wp-admin/admin-ajax.php",
+		type: "POST",
+		async: "true",
+		dataType: "json",
+		data:data,
+		ContentType:"application/x-www-form-urlencoded; charset=UTF-8",
+		beforeSend: function() {
+			qwr_clearmsg();
+			pa.html('');
+		},
+		complete: function() {},
+		success: function(data){
+			if(typeof(data)!='undefined'&&data!=null){
+				if(typeof(data['products'])!='undefined'&&data['products']!=null){
+					if(data['products'].length>0){
+						if(fr.find('#order_product').length<1){
+							pa.html(ht);
+							var ht='<div class="form-group group-products"><label class="control-label">Products</label>';
+							for(key in data['products']){
+								ht+='<div class="radio"><label><input type="radio" name="order[product_id]" id="order_product" data-profile="'+data['products'][key]['profile']+'" value="'+data['products'][key]['id']+'">'+data['products'][key]['name'];
+								if(data['products'][key]['type']=='subscription'&&data['products'][key]['description'])ht+=data['products'][key]['description']+'</label>';
+								ht+='</div>';
+							}
+							ht+='</div><div class="form-group required_" id="order_link" ><label class="control-label labelProfile">'+data['products'][0]['profile']+'</label><input type="text" class="form-control" name="order[link]" id="link" value=""  required="required"/></div><div id="order_options_area"></div><div class="form-group appprice">Price $<span id="price"</span></div><button type="button" class="btn btn-primary btn_addorder">Submit</button><input type="hidden" name="action" value="add_order" /><div class="form-group" id="order_options" ></div>';
+							pa.html(ht);
+							qw("input:radio[name='order[product_id]']:first").attr('checked', true);
+							
+						}
+						var html='';
+						for(key in data['products']){
+							html+='<option value="'+data['products'][key]['id']+'">'+data['products'][key]['name'];
+							if(data['products'][key]['type']=='subscription'&&data['products'][key]['description'])html+=' '+data['products'][key]['description'];
+							html+='</option>';
+						}
+						sr=fr.find('#order_product');
+						sr.html(html);
+						getOptions(sr.val());
+					}else{
+						pa.html('');
+						qwr_showmsg('Product undefined','danger','.qwrapp .addorder','prepend');
+					}
+				}
+			}
+		}
+	});
+	return false;
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="form-group group-categories">
+		<label class="control-label">Categories</label>
+		<select name="category_id" id="category_id" class="form-control">
+						<option value="1">instagram video views</option>
+					</select>
+	</div>
+
+
+
+
+
+
+
+
+
+
+function ...(){
+	$data['products']=array(...);
+	echo json_encode($data);exit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+var qw=jQuery.noConflict();
+qw(document).ready(function(){
+
+});

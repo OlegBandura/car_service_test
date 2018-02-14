@@ -13,3 +13,9 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+
+
+var qw=jQuery.noConflict();
+qw(document).ready(function(){
+  alert("ddd");
+});

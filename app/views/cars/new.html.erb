@@ -1,0 +1,40 @@
+<div class="admin_form">
+  <%= form_for :car, url: cars_path do |form| %>
+  <% if @auto && @auto.errors.any? %>
+    <p>
+      <ul>
+      <% @auto.errors.full_messages.each do |message| %>
+        <li class="error_message"><%= message%></li>
+      <% end%>
+      </ul>
+    </p>
+  <% end %>
+    <p>Додати марку автомобіля</p>
+    <p>Марка
+    <%= form.text_field :marka %></p>
+
+    <p><%= form.submit 'Додати марку авто'%></p>
+  <% end %>
+</div>
+
+
+<div class="admin_form">
+  <%= form_for :auto, url: cars_path do |form| %>
+  <% if @auto && @auto.errors.any? %>
+    <p>
+      <ul>
+      <% @auto.errors.full_messages.each do |message| %>
+        <li class="error_message"><%= message%></li>
+      <% end%>
+      </ul>
+    </p>
+  <% end %>
+    <p>Інформація про авто</p>
+    <p>Марка
+    <%= form.text_field :marka %></p>
+    <p>Модель
+    <%= form.text_field :model %></p>
+
+    <p><%= form.submit 'Додати авто'%></p>
+  <% end %>
+</div>
