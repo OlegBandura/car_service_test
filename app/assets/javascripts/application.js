@@ -15,7 +15,7 @@
 //= require_tree .
 
 
-var qw=jQuery.noConflict();
-qw(document).ready(function(){
-  alert("ddd");
-});
+// var qw=jQuery.noConflict();
+// qw(document).ready(function(){
+//   alert("ddd");
+// });

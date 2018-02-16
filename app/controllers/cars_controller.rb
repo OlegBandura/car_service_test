@@ -1,19 +1,19 @@
 class CarsController < ApplicationController
 
   def new
+    @brands = Brand.all
   end
 
   def create
-    @auto = Car.new(auto_marka_params)
-    if @auto.valid?
+  # render plain: params[:car_form]
+
+    @auto = Car.new(auto_params)
       @auto.save
-    else
       render action: 'new'
-    end
   end
 
   private
-  def auto_marka_params
-    params.require(:car).permit(:marka)
+  def auto_params
+    params.require(:car_form).permit(:id_brand, :model)
   end
 end
