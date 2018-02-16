@@ -1,9 +1,19 @@
 class BrandsController < ApplicationController
   def index
     @brands = Brand.all
-    @cars = Car.find_by_sql("SELECT brands.brand, cars.model
-                              FROM brands, cars
-                              WHERE brands.id = cars.id_brand")
+
+    @cars_ = Car.find_by_sql("SELECT brands.brand, cars.model
+                              FROM brands INNER JOIN cars
+                              ON brands.id = cars.id_brand")
+  # @h = Hash.new("")
+  #   @cars_.collect do |car|
+  #     @h[car.brand] += ", " + car.model
+  #   end
+  @h = Hash.new("")
+    @cars_.collect do |car|
+      @h[car.brand] += car.model + ","
+    end
+
   end
 
   def new
