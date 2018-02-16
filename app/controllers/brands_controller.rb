@@ -1,6 +1,9 @@
 class BrandsController < ApplicationController
   def index
     @brands = Brand.all
+    @cars = Car.find_by_sql("SELECT brands.brand, cars.model
+                              FROM brands, cars
+                              WHERE brands.id = cars.id_brand")
   end
 
   def new

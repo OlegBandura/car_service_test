@@ -4,8 +4,8 @@ Rails.application.routes.draw do
   get 'about/index'
   get 'autoservices' => 'autoservices#new'
   resource :autoservices, only: [:create]
-  resource :cars, only: [:new, :create], path_names: {:new => ''}
-  resources :services, :brands
+  # resource :cars, only: [:new, :create], path_names: {:new => ''}
+  resources :services, :brands, :cars
 
 
 

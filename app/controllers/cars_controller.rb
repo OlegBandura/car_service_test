@@ -1,15 +1,18 @@
 class CarsController < ApplicationController
+  def index
+
+  end
 
   def new
     @brands = Brand.all
+    
   end
 
   def create
   # render plain: params[:car_form]
-
     @auto = Car.new(auto_params)
       @auto.save
-      render action: 'new'
+       render action: 'new'
   end
 
   private

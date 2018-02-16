@@ -3,10 +3,10 @@
 
     <p>Інформація про авто</p>
     <p>Марка
-      <%= form.select("brand", Brand.all.collect{|p| [ p.brand, p.id] }, { include_blank: true }) %>
+      <%= form.select("id_brand", Brand.all.collect{|p| [ p.brand, p.id] }) %>
     </p>
     <p>Модель
       <%= form.text_field :model %></p>
-    <p><%= form.button %></p>
+    <p><%= form.submit 'Додати модель авто' %></p>
   <% end %>
 </div>
