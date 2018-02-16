@@ -1,7 +1,7 @@
 <div class="admin_form">
   <%= form_for :brand, url: brand_path(@brand), method: :put do |form| %>
 
-    <p>Додати марку автомобіля</p>
+    <p>Оновити марку автомобіля</p>
     <p>Марка
       <%= form.text_field :brand %></p>
     <p><%= form.submit 'Оновити марку авто'%></p>

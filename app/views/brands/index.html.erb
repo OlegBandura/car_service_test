@@ -1,15 +1,19 @@
-<table border=1px>
+<table id="car_table">
   <tr>
-    <th>Id</th>
-    <th>Brand</th>
-    <th>Edit/Delete</th>
+    <th onclick="sortTable(0)">Id</th>
+    <th onclick="sortTable(1)">Brand</th>
+    <th>Edit  / Delete</th>
   </tr>
 <%  @brands.each do |brand| %>
 <tr>
-  <th><%= brand.id %></th>
-  <th><%= brand.brand %></th>
-  <th><%= link_to "Edit", edit_brand_path(brand) %> |   <%= link_to "Delete", brand_path(brand), method: :delete, data: {confirm: 'Are you sure?' } %>
-
+  <td><%= brand.id %></td>
+  <td><%= brand.brand %></td>
+  <th><%= link_to "Edit", edit_brand_path(brand) %> |   <%= link_to "Delete",
+        brand_path(brand), method: :delete, data: {confirm: 'Are you sure?' } %>
 </tr>
 <% end %>
 </table>
+<ul>
+  <li><%= link_to "Додати марку автомобіля",  new_brand_path %></li>
+  <li><%= link_to "Додати модель автомобіля",  new_cars_path %></li>
+</ul>

@@ -1,3 +1,17 @@
 // Place all the styles related to the Brands controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+table {
+    border-spacing: 1;
+    width: 60%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
