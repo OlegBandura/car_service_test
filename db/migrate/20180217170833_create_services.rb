@@ -5,7 +5,7 @@ class CreateServices < ActiveRecord::Migration[5.1]
       t.string :city
       t.string :address
       t.boolean :diler
-
+      t.text :image
       t.timestamps
     end
   end

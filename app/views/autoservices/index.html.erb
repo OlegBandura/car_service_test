@@ -1,0 +1,35 @@
+<div id="car_nav_bar">
+  <ul>
+    <li><%= link_to "Додати новий автосервіс",  new_autoservice_path %></li>
+  </ul>
+</div>
+
+<table id="autoservice_table">
+  <tr>
+    <th onclick="sortTable(0)">Id</th>
+        <th>Image</th>
+    <th onclick="sortTable(1)">Name</th>
+    <th onclick="sortTable(2)">City</th>
+    <th onclick="sortTable(3)">Address</th>
+    <th onclick="sortTable(4)">Diller</th>
+    <th>Edit  / Delete</th>
+  </tr>
+<%  @autoservices.each do |autoservice| %>
+<tr>
+  <td><%= autoservice.id %></td>
+  <td><%= image_tag(autoservice.image, :alt => "logo", size: "80x50") %></td>
+  <td><%= autoservice.name %></td>
+  <td><%= autoservice.city %></td>
+  <td><%= autoservice.address %></td>
+  <td>
+    <%= if autoservice.diler == true
+          "Диллер сервіс"
+          else
+          ""
+        end %></td>
+
+  <th><%= link_to "Edit", edit_autoservice_path(autoservice) %> |   <%= link_to "Delete",
+        autoservice_path(autoservice), method: :delete, data: {confirm: 'Are you sure?' } %>
+</tr>
+<% end %>
+</table>

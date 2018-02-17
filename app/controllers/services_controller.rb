@@ -1,10 +1,10 @@
 class ServicesController < ApplicationController
   def index
-    @cars = Auto.all
+    # @cars = Auto.all
   end
 
   def show
-    @cars = Auto.all
+    # @cars = Auto.all
 
   end
 

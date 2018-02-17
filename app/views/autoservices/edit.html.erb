@@ -1,5 +1,6 @@
 <div class="admin_form">
-  <%= form_for :autoservice, url: autoservices_path do |form| %>
+  <%= form_for :autoservice, url: autoservice_path(@autoservice), method: :put do |form| %>
+
   <% if @autoservice && @autoservice.errors.any? %>
     <p>
       <ul>
@@ -10,7 +11,7 @@
     </p>
   <% end %>
 
-    <p>Інформація про автосервіс</p>
+    <p>Оновлення інформації про автосервіс</p>
     <p>Назва автосервісу
     <%= form.text_field :name %></p>
     <p>Місце знаходження автосервісу
@@ -20,8 +21,7 @@
     <%= form.text_field :address %></p>
     <p>Доллерська компанія:
       <%= form.check_box :diler %></p>
-    <p>Додати логотип<br>
-    <%= form.file_field :image %></p>
-    <p><%= form.submit 'Send'%></p>
+
+    <p><%= form.submit 'Оновити'%></p>
   <% end %>
 </div>

@@ -22,7 +22,7 @@
 
 function sortTable(n) {
   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-  table = document.getElementById("car_table");
+  table = document.getElementById("car_table", "autoservice_table");
   switching = true;
   dir = "asc";
   while (switching) {
