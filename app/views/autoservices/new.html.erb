@@ -12,9 +12,15 @@
 
     <p>Інформація про автосервіс</p>
     <p>Назва автосервісу
-    <%= form.text_field :name_service %></p>
+    <%= form.text_field :name %></p>
     <p>Місце знаходження автосервісу
+      <p>Місто
+        <%= form.text_field :city %></p>
+      <p>Адреса
     <%= form.text_field :address %></p>
+    <p>Доллерська компанія:
+      <%= form.check_box :diler %></p>
+
     <p><%= form.submit 'Send'%></p>
   <% end %>
 </div>

@@ -13,6 +13,6 @@ class AutoservicesController < ApplicationController
 
   private
   def autoservice_params
-    params.require(:autoservice).permit(:name_service, :address)
+    params.require(:autoservice).permit(:name, :city, :address, :diler)
   end
 end

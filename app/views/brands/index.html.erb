@@ -9,14 +9,12 @@
   <tr>
     <th onclick="sortTable(0)">Id</th>
     <th onclick="sortTable(1)">Brand</th>
-    <th onclick="sortTable(2)">Model</th>
     <th>Edit  / Delete</th>
   </tr>
 <%  @brands.each do |brand| %>
 <tr>
   <td><%= brand.id %></td>
   <td><%= brand.brand %></td>
-  <td>  </td>
   <th><%= link_to "Edit", edit_brand_path(brand) %> |   <%= link_to "Delete",
         brand_path(brand), method: :delete, data: {confirm: 'Are you sure?' } %>
 </tr>
@@ -24,6 +22,23 @@
 </table>
 
 
-<% @h.each do |key, value| %>
-  <%=  " #{key} - #{value.chomp(',')}" %>
+<br><p>Table cars model</p>
+<table id="car_table">
+  <tr>
+    <th onclick="sortTable(1)">Brand</th>
+    <th onclick="sortTable(2)">Model</th>
+    <th>Edit  / Delete</th>
+  </tr>
+  <% @h.each do |key, value| %>
+  <% @arr.each do |idea| %>
+    <td><%= idea %></td>
+
+      <td><%= "#{key}" %></td>
+
+      <td><%= "#{value.chomp(',')}" %></td>
+      <th><%= link_to "Edit", edit_car_path("#{key}") %> |   <%= link_to "Delete",
+            car_path("#{value.chomp(',')}"), method: :delete, data: {confirm: 'Are you sure?' } %>
+    </tr>
+    <% end %>
 <% end %>
+</table>

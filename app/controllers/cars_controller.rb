@@ -5,7 +5,7 @@ class CarsController < ApplicationController
 
   def new
     @brands = Brand.all
-    
+
   end
 
   def create
@@ -13,6 +13,23 @@ class CarsController < ApplicationController
     @auto = Car.new(auto_params)
       @auto.save
        render action: 'new'
+  end
+
+  # def edit
+  #   @car = Car.find(params[:id])
+  # end
+  # def update
+  #   @car = Car.find(params[:id])
+  #   if @car.update(brand_params)
+  #     redirect_to @car
+  #   else
+  #     render action 'edit'
+  #   end
+  # end
+
+  def destroy
+    @car.destroy
+    redirect_to brands_path
   end
 
   private
