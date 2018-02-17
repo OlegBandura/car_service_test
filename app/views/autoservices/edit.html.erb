@@ -21,7 +21,10 @@
     <%= form.text_field :address %></p>
     <p>Доллерська компанія:
       <%= form.check_box :diler %></p>
-
+      <p>Додати логотип<br>
+      <%= form.file_field :image %></p>
+      <%= form.text_field :remote_image_url %>
+      <small>Enter URL to an image</small>
     <p><%= form.submit 'Оновити'%></p>
   <% end %>
 </div>

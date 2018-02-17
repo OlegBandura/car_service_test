@@ -21,6 +21,7 @@ gem 'uglifier', '>= 1.3.0'
 
 #  carrierwave to upload images
 gem 'carrierwave', '~> 1.0'
+gem 'mini_magick'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

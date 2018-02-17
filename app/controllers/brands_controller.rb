@@ -2,46 +2,13 @@ class BrandsController < ApplicationController
   def index
     @brands = Brand.all
 
-    cars_ = Car.find_by_sql("SELECT cars.id, cars.id_brand, brands.brand, cars.model
+    @cars_ = Car.find_by_sql("SELECT cars.id, cars.id_brand, brands.brand, cars.model
                               FROM brands LEFT JOIN cars
                               ON brands.id = cars.id_brand")
-
-    puts "__________________________________________"
-
     @cars  = Hash.new{|hsh,key| hsh[key] = [] }
-    cars_.each do |car|
+    @cars_.each do |car|
       @cars[car["brand"]].push(car)
     end
-
-    puts @cars
-
-  # @h = {
-  #   'bmv'=>[
-  #    {'id'=>1,'model'=>'m1'},
-  #    {'id'=>2,'model'=>'m2'},
-  #    {'id'=>3,'model'=>'m3'}
-  #   ],
-  #   'audi'=>[
-  #    {'id'=>4,'model'=>'ma1'},
-  #    {'id'=>5,'model'=>'ma2'}
-  #   ]
-  #  }
-
-   # @h = Hash.new("")
-   #   @cars_.collect do |car|
-   #     @h[car.brand] += ", " + car.model
-   #   end
-
-
-
-
-   # @arr = Array.new
-   # @arr = @car_index
-   # @h = Hash.new("")
-   #   @cars_.each do |car|
-   #     @h[car.brand] +=  car.model + ","
-   #
-   #   end
   end
 
   def new
