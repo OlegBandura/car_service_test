@@ -1,3 +1,35 @@
 // Place all the styles related to the Services controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#searsh_input {
+  background: url('/icons/searsh_icon.png');
+  background-size: 30px 30px;
+  background-position: 5px 8px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#autoservice_table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+
+#autoservice_table th, #autoservice_table td {
+    text-align: left;
+    padding: 12px;
+}
+
+#autoservice_table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#autoservice_table tr.header, #autoservice_table tr:hover {
+    background-color: #f1f1f1;
+}
