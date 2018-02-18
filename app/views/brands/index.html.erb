@@ -9,22 +9,38 @@
       <tr>
         <th onclick="sort_car_table(0)">Brand</th>
         <th onclick="sort_car_table(1)">Model</th>
-        <th>Edit  / Delete</th>
       </tr>
   <% @cars.each do |brand, cars| %>
     <tr>
-      <td><%= brand %></td>
+      <td>
+        <div class="model_title">
+          <%= brand %>
+          <div class="td-caret tools_menu">
+            <div class="dropdown pull-right">
+              <button type="button" class="btn btn-default btn-xs dropdown-toggle btn-xs-caret" data-toggle="dropdown"> <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#">Редагувати</a></li>
+                <li><a href="#" data-confirm="Are you sure?" data-method="delete" >Видалити</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </td>
+
       <% models = Array.new %>
     <td>
       <% cars.each do |key| %>
       <div class="car_model">
-        <div class="model_title"><%= key["model"]%></div>
+        <div class="model_title">
+          <%= key["model"]%>
+        </div>
         <div class="td-caret tools_menu">
           <div class="dropdown pull-right">
             <button type="button" class="btn btn-default btn-xs dropdown-toggle btn-xs-caret" data-toggle="dropdown"> <span class="caret"></span></button>
             <ul class="dropdown-menu">
-              <li><a href="/cars/<%= key["id"] %>/edit">Edit</a></li>
-              <li><a href="/cars/<%= key["id"] %>" data-confirm="Are you sure?" data-method="delete" >Delete</a></li>
+              <li><a href="/cars/<%= key["id"] %>/edit">Редагувати</a></li>
+              <li><a href="/cars/<%= key["id"] %>" data-confirm="Are you sure?" data-method="delete" >Видалити</a></li>
             </ul>
           </div>
         </div>

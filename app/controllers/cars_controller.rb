@@ -10,19 +10,17 @@ class CarsController < ApplicationController
   def create
     @auto = Car.new(auto_params)
       @auto.save
-       render action: 'new'
+      redirect_to brands_path
   end
 
   def edit
-    @edit_brands = Brand.find(params[:id])
+    @edit_car = Car.find(params[:id])
 
   end
 
   def update
-    @cars = Brand.find(params[:id])
-    @car = Brand.find(params[@cars])
-
-    if @car.update(auto_params)
+    @edit_car = Car.find(params[:id])
+    if @edit_car.update(auto_params)
       redirect_to brands_path
     else
       render action 'edit'
@@ -37,6 +35,6 @@ class CarsController < ApplicationController
 
   private
   def auto_params
-    params.require(:car_form).permit(:id_brand, :model)
+    params.require(:car_form).permit(:model)
   end
 end
