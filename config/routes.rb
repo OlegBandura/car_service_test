@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'home#index'
+  root to: 'home#index'
   get 'home/index'
   get 'about/index'
   # resource :autoservices, only: [:create]

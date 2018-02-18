@@ -1,9 +1,11 @@
 <div class="admin_form">
-  <%= form_for :auto, url: car_path(@auto), method: :put do |form| %>
-
-    <p>Оновити  модель автомобіля</p>
+  <%= form_for :car_form, url: car_path(@edit_brands), method: :put  do |form| %>
+    <p>Інформація про авто</p>
     <p>Марка
-      <%= form.text_field :auto %></p>
-    <p><%= form.submit 'Оновити модель авто'%></p>
+      <%= form.select("id_brand", Brand.all.collect{|p| [ p.brand, p.id] }) %>
+    </p>
+    <p>Модель
+      <%= form.text_field :model %></p>
+    <p><%= form.submit 'Додати модель авто' %></p>
   <% end %>
 </div>

@@ -2,15 +2,17 @@ class BrandsController < ApplicationController
   def index
     @brands = Brand.all
 
-    @cars_ = Car.find_by_sql("SELECT cars.id, cars.id_brand, brands.brand, cars.model
+    cars_ = Car.find_by_sql("SELECT cars.id, cars.id_brand, brands.brand, cars.model
                               FROM brands LEFT JOIN cars
                               ON brands.id = cars.id_brand")
     @cars  = Hash.new{|hsh,key| hsh[key] = [] }
-    @cars_.each do |car|
+    cars_.each do |car|
       @cars[car["brand"]].push(car)
     end
   end
 
+  puts "_______________________________"
+  puts @cars
   def new
   end
 

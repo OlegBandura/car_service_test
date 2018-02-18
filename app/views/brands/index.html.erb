@@ -5,25 +5,31 @@
   </ul>
 </div>
 
-  <table id="car_table">
+<table id="car_table">
+      <tr>
+        <th onclick="sort_car_table(0)">Brand</th>
+        <th onclick="sort_car_table(1)">Model</th>
+        <th>Edit  / Delete</th>
+      </tr>
+
+  <% @cars.each do |brand, cars| %>
     <tr>
-      <th onclick="sort_car_table(0)">Brand</th>
-      <th onclick="sort_car_table(1)">Model</th>
-      <th>Edit  / Delete</th>
-    </tr>
+      <td><%= brand %></td>
 
-<% @cars.each do |brand, cars| %>
-  <tr>
-    <td><%= brand %></td>
-    <% models = Array.new %>
-    <% cars.each do |key| %>
-      <% models.push(key["model"])  %>
-      <%= (key["id_brand"])  %>
+      <% models = Array.new %>
 
-    <% end %>
-  <td><%= models.join(", ") %></td>
-  <th><%= link_to "Edit", edit_car_path(4) %> |   <%= link_to "Delete",
-       method: :delete, data: {confirm: 'Are you sure?' } %></th>
-<% end %>
-</tr>
+      <% cars.each do |key| %>
+        <label onclick="select_model()">
+          <% models.push(key["model"])%>
+        </label>
+
+        <%  #models.push('<div onclick="select_model()">' + key["model"] + '</div>')  %>
+
+      <% end %>
+
+    <td><%= models.join(", ") %></td>
+
+
+  <% end %>
+  </tr>
 </table>

@@ -15,10 +15,6 @@
 //= require_tree .
 
 
-// var qw=jQuery.noConflict();
-// qw(document).ready(function(){
-//   alert("ddd");
-// });
 
 function sort_car_table(n) {
   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;

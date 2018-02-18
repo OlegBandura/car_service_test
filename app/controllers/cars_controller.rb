@@ -5,30 +5,33 @@ class CarsController < ApplicationController
 
   def new
     @brands = Brand.all
-
   end
 
   def create
-  # render plain: params[:car_form]
     @auto = Car.new(auto_params)
       @auto.save
        render action: 'new'
   end
 
-  # def edit
-  #   @car = Car.find(params[:id])
-  # end
-  # def update
-  #   @car = Car.find(params[:id])
-  #   if @car.update(brand_params)
-  #     redirect_to @car
-  #   else
-  #     render action 'edit'
-  #   end
-  # end
+  def edit
+    @edit_brands = Brand.find(params[:id])
+
+  end
+
+  def update
+    @cars = Brand.find(params[:id])
+    @car = Brand.find(params[@cars])
+
+    if @car.update(auto_params)
+      redirect_to brands_path
+    else
+      render action 'edit'
+    end
+  end
 
   def destroy
-    @car.destroy
+    car = Car.find(params[:id_brand])
+    car.destroy
     redirect_to brands_path
   end
 
