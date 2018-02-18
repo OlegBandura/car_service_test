@@ -15,7 +15,6 @@
 //= require_tree .
 
 
-
 function sort_car_table(n) {
   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
   table = document.getElementById("car_table");

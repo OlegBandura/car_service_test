@@ -30,7 +30,7 @@ class CarsController < ApplicationController
   end
 
   def destroy
-    car = Car.find(params[:id_brand])
+    car = Car.find(params[:id])
     car.destroy
     redirect_to brands_path
   end
