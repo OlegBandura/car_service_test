@@ -13,21 +13,8 @@
   <% @cars.each do |brand, cars| %>
     <tr>
       <td>
-        <div class="model_title">
-          <%= brand %>
-          <div class="td-caret tools_menu">
-            <div class="dropdown pull-right">
-              <button type="button" class="btn btn-default btn-xs dropdown-toggle btn-xs-caret" data-toggle="dropdown"> <span class="caret"></span></button>
-              <ul class="dropdown-menu">
-                <li><a href="#">Редагувати</a></li>
-                <li><a href="#" data-confirm="Are you sure?" data-method="delete" >Видалити</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
+        <%= brand %>
       </td>
-
       <% models = Array.new %>
     <td>
       <% cars.each do |key| %>
@@ -41,6 +28,8 @@
             <ul class="dropdown-menu">
               <li><a href="/cars/<%= key["id"] %>/edit">Редагувати</a></li>
               <li><a href="/cars/<%= key["id"] %>" data-confirm="Are you sure?" data-method="delete" >Видалити</a></li>
+              <li><a href="/brands/<%= key["id_brand"] %>/edit">Редагувати назву авто</a></li>
+
             </ul>
           </div>
         </div>

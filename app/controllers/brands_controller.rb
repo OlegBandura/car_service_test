@@ -28,7 +28,7 @@ class BrandsController < ApplicationController
   def update
     @brand = Brand.find(params[:id])
     if @brand.update(brand_params)
-      redirect_to @brand
+      redirect_to brands_path
     else
       render action 'edit'
     end
