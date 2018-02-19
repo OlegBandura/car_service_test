@@ -22,6 +22,13 @@
       </div>
       <div class="sidebar">
         <ul>
+          <div class="sign_on/Sign_out_links">
+            <% if user_signed_in? %>
+            <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+            <% else %>
+            <%= link_to 'Sign in', new_user_session_path%>
+            <% end %>
+          </div>
           <li><%= link_to "Головна", root_path %></li>
           <li><%= link_to "Подати заявку на СТО", new_service_path %></li>
           <li><%= link_to "Про нас", about_index_path %></li>
