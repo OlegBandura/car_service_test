@@ -15,7 +15,6 @@ class CarsController < ApplicationController
 
   def edit
     @edit_car = Car.find(params[:id])
-
   end
 
   def update
@@ -35,6 +34,6 @@ class CarsController < ApplicationController
 
   private
   def auto_params
-    params.require(:car_form).permit(:model)
+    params.require(:car_form).permit(:id_brand, :model)
   end
 end

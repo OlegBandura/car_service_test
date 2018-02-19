@@ -35,7 +35,8 @@ class BrandsController < ApplicationController
   end
 
   def destroy
-    @c = Car.find(params[:id])
+    @c = Brand.find(params[:id])
+    @a = Car.find_by_sql("DELETE FROM cars WHERE id_brand = #{@c["id"]}")
     @c.destroy
     redirect_to brands_path
   end

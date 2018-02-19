@@ -1,10 +1,3 @@
-<div id="car_nav_bar">
-  <ul>
-    <li><%= link_to "Додати марку автомобіля",  new_brand_path %></li>
-    <li><%= link_to "Додати модель автомобіля",  new_car_path %></li>
-  </ul>
-</div>
-
 <table id="car_table">
       <tr>
         <th onclick="sort_car_table(0)">Brand</th>
@@ -26,9 +19,14 @@
           <div class="dropdown pull-right">
             <button type="button" class="btn btn-default btn-xs dropdown-toggle btn-xs-caret" data-toggle="dropdown"> <span class="caret"></span></button>
             <ul class="dropdown-menu">
-              <li><a href="/cars/<%= key["id"] %>/edit">Редагувати</a></li>
-              <li><a href="/cars/<%= key["id"] %>" data-confirm="Are you sure?" data-method="delete" >Видалити</a></li>
-              <li><a href="/brands/<%= key["id_brand"] %>/edit">Редагувати назву авто</a></li>
+              <li><%= link_to "Додати модель автомобіля",  new_car_path %></li>
+              <li><a href="/cars/<%= key["id"] %>/edit">Редагувати модель</a></li>
+              <li><a href="/cars/<%= key["id"] %>" data-confirm="Are you sure?" data-method="delete" >Видалити модель</a></li>
+              <hr>
+              <li><%= link_to "Додати марку автомобіля",  new_brand_path %></li>
+              <li><a href="/brands/<%= key["id_brand"] %>/edit">Редагувати марку</a></li>
+              <li><a href="/brands/<%= key["id_brand"] %>" data-confirm="Are you sure?" data-method="delete" >Видалити марку</a></li>
+
 
             </ul>
           </div>
