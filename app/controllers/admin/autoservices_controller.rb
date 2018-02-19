@@ -1,5 +1,4 @@
 class Admin::AutoservicesController < Admin::BaseController
-  before_action :authenticate_user!
   def index
     @autoservices = Service.all
   end

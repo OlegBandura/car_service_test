@@ -1,7 +1,4 @@
 class Admin::CarsController < Admin::BaseController
-  def index
-
-  end
 
   def new
     @brands = Brand.all
