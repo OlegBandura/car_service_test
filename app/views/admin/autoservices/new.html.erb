@@ -1,0 +1,30 @@
+<div class="admin_form">
+  <%= form_for :autoservice, url: admin_autoservices_path do |form| %>
+  <% if @autoservice && @autoservice.errors.any? %>
+    <p>
+      <ul>
+      <% @autoservice.errors.full_messages.each do |message| %>
+        <li class="error_message"><%= message%></li>
+      <% end%>
+      </ul>
+    </p>
+  <% end %>
+
+    <p>Інформація про автосервіс</p>
+    <p>Назва автосервісу
+    <%= form.text_field :name %></p>
+    <p>Місце знаходження автосервісу
+      <p>Місто
+        <%= form.text_field :city %></p>
+      <p>Адреса
+    <%= form.text_field :address %></p>
+    <p>Доллерська компанія:
+      <%= form.check_box :diler %></p>
+    <p>Додати логотип<br>
+    <%= form.file_field :image %></p>
+
+    <%= form.text_field :remote_image_url %>
+    <small>Enter URL to an image</small>
+    <p><%= form.submit 'Send'%></p>
+  <% end %>
+</div>
