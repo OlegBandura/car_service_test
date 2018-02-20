@@ -3,40 +3,56 @@
   <head>
     <title>CarService</title>
     <%= csrf_meta_tags %>
-    <script src="jquery-3.3.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=devise-width, initial-scale=1.0">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <!-- navigation bar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <%= link_to "Car Service", root_path, class: "navbar-brand"%>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <%= link_to "Головна", root_path, class: "nav-link"%>
+            </li>
+            <li class="nav-item">
+              <%= link_to "Подати заявку на СТО", new_service_path, class: "nav-link" %>
+            </li>
+            <li class="nav-item">
+              <%= link_to "Про нас", about_index_path, class: "nav-link" %>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Administrator
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <%= link_to "Робота з автосервісами",  admin_autoservices_path, class: "dropdown-item" %>
+                <%= link_to "Робота з автомобілями", admin_brands_path, class: "dropdown-item" %>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="sign_on/Sign_out_links">
+          <% if user_signed_in? %>
+          <%= "Hello, " + current_user.email + "   "  %><%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+          <% else %>
+          <%= link_to 'Sign in', new_user_session_path%>
+          <% end %>
+        </div>
+      </nav>
+    </div>
+<!-- end navigation bar -->
 
-    <div class="site">
-      <div class="header">
-        header
-      </div>
-      <div class="sidebar">
-        <ul>
-          <div class="sign_on/Sign_out_links">
-            <% if user_signed_in? %>
-            <%= "Hello, " + current_user.email + "   "  %><%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
-            <% else %>
-            <%= link_to 'Sign in', new_user_session_path%>
-            <% end %>
-          </div>
-          <li><%= link_to "Головна", root_path %></li>
-          <li><%= link_to "Подати заявку на СТО", new_service_path %></li>
-          <li><%= link_to "Про нас", about_index_path %></li>
-          <li><%= link_to "Робота з автосервісами",  admin_autoservices_path %></li>
-          <li><%= link_to "Робота з автомобілями", admin_brands_path %></li>
-
-        </ul>
-      </div>
       <div class="content">
         <%= yield %>
       </div>
