@@ -22,6 +22,7 @@ body{
   font-size: 16px;
   color: #555;
 
+
   -webkit-font-smoothing: antialised;
   -webkit-owerflow-scrolling: touch;
   margin-top: 70px;
@@ -32,8 +33,6 @@ h1, h2,h3, h4, h5, h6{
   font-weight: 300;
   color: #333;
 }
-
-
 
 .centeted{
   text-align: center;
@@ -46,8 +45,6 @@ a{
 
 a:hover, a:focus{
   color: #7b7b7b;
-
-
 }
 
 .field_with_errors input{
@@ -56,4 +53,8 @@ a:hover, a:focus{
 
 .error_message{
   color: red;
+}
+
+.card{
+  position: fixed;
 }
