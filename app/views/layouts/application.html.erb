@@ -44,7 +44,17 @@
         </div>
         <div class="sign_on/Sign_out_links">
           <% if user_signed_in? %>
-          <%= "Hello, " + current_user.email + "   "  %><%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+          <div class="btn-group dropbottom ">
+            <button class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="name_user"><%= "Hello, " + current_user.email %></span>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <%= link_to 'Configuration ', edit_user_registration_path, class:"dropdown-item", type: "button"%>
+              <%= link_to 'Sign out', destroy_user_session_path, method: :delete, class:"dropdown-item", type: "button" %>
+            </div>
+          </div>
+
+
           <% else %>
           <%= link_to 'Sign in ', new_user_session_path%>|<%= link_to ' Sign up', new_user_registration_path%>
           <% end %>
