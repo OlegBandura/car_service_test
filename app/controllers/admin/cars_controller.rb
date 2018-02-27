@@ -1,13 +1,17 @@
 class Admin::CarsController < Admin::BaseController
-
   def new
     @brands = Brand.all
   end
 
   def create
-    @auto = Car.new(auto_params)
-      @auto.save
-      redirect_to admin_brands_path
+    @brand = Brand.find(brand_p[:id])
+    @brand.cars.create(car_params)
+    # @brand = Brand.find(params[:brand_id])
+    # @car = @brand.models.new(car_params)
+    # @car.save
+    # auto = Car.create(car_params)
+    # render plain: car_params
+    redirect_to admin_brands_path
   end
 
   def edit
@@ -30,7 +34,10 @@ class Admin::CarsController < Admin::BaseController
   end
 
   private
-  def auto_params
-    params.require(:car_form).permit(:id_brand, :model)
+  def brand_p
+    params.require(:car_form).permit(:id)
+  end
+  def car_params
+    params.require(:car_form).permit(:model)
   end
 end
