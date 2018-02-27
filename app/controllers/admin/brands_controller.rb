@@ -1,12 +1,11 @@
 class Admin::BrandsController < Admin::BaseController
   def index
-    @brands = Brand.all
+    # @brands = Brand.all
 
-    cars_ = Car.find_by_sql("SELECT cars.id, cars.brand_id, brands.brand, cars.model
-                              FROM brands LEFT JOIN cars
-                              ON brands.id = cars.brand_id")
+    cars = Brand.left_joins(:cars).select('cars.id, cars.brand_id, brands.brand, cars.model')
+
     @cars = Hash.new { |hsh, key| hsh[key] = [] }
-    cars_.each do |car|
+    cars.each do |car|
       @cars[car[:brand]].push(car)
     end
   end
@@ -32,7 +31,7 @@ class Admin::BrandsController < Admin::BaseController
   def destroy
     brand = Brand.find(params[:id])
     models = Car.where(brand_id: brand.id)
-    models.each do |model|
+    models.each do|model|
       model.destroy
     end
     brand.destroy

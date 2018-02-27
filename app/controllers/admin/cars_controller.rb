@@ -4,13 +4,8 @@ class Admin::CarsController < Admin::BaseController
   end
 
   def create
-    @brand = Brand.find(brand_p[:id])
+    @brand = Brand.find(brand_p[:brand_id])
     @brand.cars.create(car_params)
-    # @brand = Brand.find(params[:brand_id])
-    # @car = @brand.models.new(car_params)
-    # @car.save
-    # auto = Car.create(car_params)
-    # render plain: car_params
     redirect_to admin_brands_path
   end
 
@@ -20,7 +15,7 @@ class Admin::CarsController < Admin::BaseController
 
   def update
     @edit_car = Car.find(params[:id])
-    if @edit_car.update(auto_params)
+    if @edit_car.update(car_params)
       redirect_to admin_brands_path
     else
       render action 'edit'
@@ -35,7 +30,7 @@ class Admin::CarsController < Admin::BaseController
 
   private
   def brand_p
-    params.require(:car_form).permit(:id)
+    params.require(:car_form).permit(:brand_id)
   end
   def car_params
     params.require(:car_form).permit(:model)
