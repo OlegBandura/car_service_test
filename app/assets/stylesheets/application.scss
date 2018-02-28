@@ -67,3 +67,37 @@ a:hover, a:focus{
   background-color: #343a40;
   border: none;
 }
+
+.user_table{
+  size: auto;
+}
+// Table
+table {
+    border-spacing: 1;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.car_model{
+  float: left;
+  margin-right: 8px;
+}
+
+.model_title{
+  float: left;
+  margin-right: 5px;
+}
+
+.tools_menu{
+  float: left;
+}
+// end table
