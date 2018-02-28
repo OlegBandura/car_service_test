@@ -1,8 +1,7 @@
 class Admin::BrandsController < Admin::BaseController
   def index
-    # @brands = Brand.all
-
-    cars = Brand.left_joins(:cars).select('cars.id, cars.brand_id, brands.brand, cars.model')
+    cars = Brand.left_joins(:cars).select('cars.id, cars.brand_id,
+      brands.brand, cars.model')
 
     @cars = Hash.new { |hsh, key| hsh[key] = [] }
     cars.each do |car|
@@ -30,10 +29,6 @@ class Admin::BrandsController < Admin::BaseController
 
   def destroy
     brand = Brand.find(params[:id])
-    models = Car.where(brand_id: brand.id)
-    models.each do|model|
-      model.destroy
-    end
     brand.destroy
     redirect_to admin_brands_path
   end

@@ -29,9 +29,11 @@ class Admin::CarsController < Admin::BaseController
   end
 
   private
+
   def brand_p
     params.require(:car_form).permit(:brand_id)
   end
+
   def car_params
     params.require(:car_form).permit(:model)
   end
