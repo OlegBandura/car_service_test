@@ -1,15 +1,15 @@
 <div class="admin_form">
   <%= form_for :autoservice, url: admin_autoservice_path(@autoservice), method: :put do |form| %>
 
-  <% if @autoservice && @autoservice.errors.any? %>
-    <p>
-      <ul>
-      <% @autoservice.errors.full_messages.each do |message| %>
-        <li class="error_message"><%= message%></li>
-      <% end%>
-      </ul>
-    </p>
-  <% end %>
+    <% if @autoservice && @autoservice.errors.any? %>
+      <p>
+        <ul>
+        <% @autoservice.errors.full_messages.each do |message| %>
+          <li class="error_message"><%= message%></li>
+        <% end%>
+        </ul>
+      </p>
+    <% end %>
 
     <p>Оновлення інформації про автосервіс</p>
     <p>Назва автосервісу

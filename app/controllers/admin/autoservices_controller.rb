@@ -19,6 +19,7 @@ class Admin::AutoservicesController < Admin::BaseController
   def edit
     @autoservice = Service.find(params[:id])
   end
+
   def update
     @autoservice = Service.find(params[:id])
     if @autoservice.update(autoservice_params)
@@ -28,7 +29,6 @@ class Admin::AutoservicesController < Admin::BaseController
     end
   end
 
-
   def destroy
     autoservice = Service.find(params[:id])
     autoservice.destroy
@@ -36,6 +36,7 @@ class Admin::AutoservicesController < Admin::BaseController
   end
 
   private
+
   def autoservice_params
     params.require(:autoservice).permit(:name, :city, :address, :diler, :image, :remote_image_url)
   end
