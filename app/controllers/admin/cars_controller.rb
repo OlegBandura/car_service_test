@@ -10,12 +10,12 @@ class Admin::CarsController < Admin::BaseController
   end
 
   def edit
-    @edit_car = Car.find(params[:id])
+    @car = Car.find(params[:id])
   end
 
   def update
-    @edit_car = Car.find(params[:id])
-    if @edit_car.update(car_params)
+    @car = Car.find(params[:id])
+    if @car.update(car_params)
       redirect_to admin_brands_path
     else
       render action 'edit'
@@ -31,10 +31,10 @@ class Admin::CarsController < Admin::BaseController
   private
 
   def brand_p
-    params.require(:car_form).permit(:brand_id)
+    params.require(:car).permit(:brand_id)
   end
 
   def car_params
-    params.require(:car_form).permit(:model)
+    params.require(:car).permit(:model)
   end
 end

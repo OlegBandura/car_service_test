@@ -36,6 +36,6 @@ class Admin::BrandsController < Admin::BaseController
   private
 
   def brand_params
-    params.require(:brand_form).permit(:brand)
+    params.require(:brand).permit(:brand)
   end
 end

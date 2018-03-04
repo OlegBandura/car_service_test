@@ -1,0 +1,7 @@
+<div class="admin_form">
+  <%= form_for :category, url: admin_category_path(@category), method: :put do |f| %>
+    <p>Редагувати категорію поломки авто</p>
+    <%= f.text_field :category_name %>
+    <%= f.submit "Edit category" %>
+  <% end %>
+</div>
