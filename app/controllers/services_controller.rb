@@ -11,9 +11,16 @@ class ServicesController < ApplicationController
     @car = Car.new
     @year = Array[]
     Time.current.year.downto(1970) { |n| @year.push(n) }
+
   end
 
   def create
+    render plain: car_params
+  end
 
+  private
+
+  def car_params
+    params.require(:service).permit(:brand_id, :model_id, :car_year, :category, :text_destroy)
   end
 end
