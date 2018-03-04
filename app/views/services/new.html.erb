@@ -2,17 +2,14 @@
     <%= form_for :service, url: services_path do |form|%>
       <p>Інформація про авто</p>
         <%= form.label "Марка"%>
-        <%= form.collection_select :brand_id, Brand.order(:brand), :id, :brand, include_blank: true %>
+        <%= form.collection_select :brand_id, Brand.order(:brand), :id, :brand %>
         <%= form.label "Модель"%>
-        <%= form.grouped_collection_select :model_id, Brand.order(:brand), :cars, :brand, :id, :model, include_blank: true %>
+        <%= form.grouped_collection_select :model_id, Brand.order(:brand), :cars, :brand, :id, :model %>
         <%= form.label "Рік випуску"%>
-        <%  %>
-
+        <%= form.select(:car_year, @year)  %>
       <p>Що потрібно ремонтувати</p>
         <%= form.text_area :text %>
       </p>
-      <div class="actions">
         <%= form.submit "Вибрати автосервіс" %>
-      </div>
     <% end %>
   </div>

@@ -9,6 +9,8 @@ class ServicesController < ApplicationController
 
   def new
     @car = Car.new
+    @year = Array[]
+    Time.current.year.downto(1970) { |n| @year.push(n) }
   end
 
   def create
