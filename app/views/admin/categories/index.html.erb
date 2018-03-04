@@ -1,0 +1,20 @@
+<div id="car_nav_bar">
+  <ul>
+    <li><%= link_to "Додати нову категорію",  new_admin_category_path %></li>
+  </ul>
+</div>
+
+<table>
+  <tr>
+    <th onclick="sort_category_table(0)">Category name</th>
+    <th>Edit  / Delete</th>
+  </tr>
+  <% @categories.each do |category| %>
+    <tr>
+      <td><%= category.category_name %></td>
+
+      <td><%= link_to "Edit", edit_admin_category_path(category) %> |   <%= link_to "Delete",
+          admin_category_path(category), method: :delete, data: {confirm: 'Are you sure?' } %>
+    </tr>
+  <% end %>
+</table>

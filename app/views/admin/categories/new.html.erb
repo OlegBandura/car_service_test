@@ -1,0 +1,5 @@
+<%= form_for :add_category, url: admin_categories_path do |f| %>
+  <p>Додати нову категорію поломки авто</p>
+  <%= f.text_field :category_name %>
+  <%= f.submit "Add category" %>
+<% end %>

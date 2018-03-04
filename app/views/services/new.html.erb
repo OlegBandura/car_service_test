@@ -1,6 +1,6 @@
   <div class="form">
     <%= form_for :service, url: services_path do |form|%>
-      <p>Інформація про авто</p>
+      <p>Інформація про авто:</p>
       <div class = "field">
         <%= form.label "Марка"%>
         <%= form.collection_select :brand_id, Brand.order(:brand), :id, :brand, include_blank: true%>
@@ -14,11 +14,13 @@
         <%= form.select(:car_year, @year)  %>
       </div>
       <div class = "field">
+        </br><%= form.label "Що потрібно ремонтувати:"%></br>
         <%= form.label "Тип поломки"%>
-        <%= form.select(:category, Category.all)  %>
+        <%= form.select :category_id, options_for_select(@categories.collect { |c|
+          [c.category_name.titleize, c.id] }), {} %>
       </div>
       <div class = "field">
-        <p>Що потрібно ремонтувати</p>
+        <%= form.label "Опис поломки"%></br>
         <%= form.text_area :text_destroy %>
       </div>
       </p>

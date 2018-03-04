@@ -9,9 +9,9 @@ class ServicesController < ApplicationController
 
   def new
     @car = Car.new
+    @categories = Category.order(:category_name)
     @year = Array[]
     Time.current.year.downto(1970) { |n| @year.push(n) }
-
   end
 
   def create
@@ -21,6 +21,7 @@ class ServicesController < ApplicationController
   private
 
   def car_params
-    params.require(:service).permit(:brand_id, :model_id, :car_year, :category, :text_destroy)
+    params.require(:service).permit(:brand_id, :model_id, :car_year,
+      :category_id, :text_destroy)
   end
 end
