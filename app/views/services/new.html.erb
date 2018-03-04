@@ -1,31 +1,18 @@
   <div class="form">
     <%= form_for :service, url: services_path do |form|%>
       <p>Інформація про авто</p>
-      <p>
-        <%= form.select(:marka, @marka_car.collect{|p| [p.id ] }) %>
+        <%= form.label "Марка"%>
+        <%= form.collection_select :brand_id, Brand.order(:brand), :id, :brand, include_blank: true %>
+        <%= form.label "Модель"%>
+        <%= form.grouped_collection_select :model_id, Brand.order(:brand), :cars, :brand, :id, :model, include_blank: true %>
+        <%= form.label "Рік випуску"%>
+        <%  %>
 
-
-        <%= form.select("model", @cars.find_by_sql("SELECT model
-                         FROM autos
-                         WHERE marka = '#{:TYPE}' ORDER BY model ASC").collect{|p| [ p.model ] }, { :class => 'model' }) %>
-
-
-                         <script>
-                         var o = new Option("option text", "value");
-                           /// jquerify the DOM object 'o' so we can use the html method
-                           $(o).html("option text");
-                           $("#model").append(o);
-                         </script>
-
-
-        <%= form.select("autoYear", @cars.collect{|p| [ p.autoYear ] }) %>
-
-      </p>
       <p>Що потрібно ремонтувати</p>
         <%= form.text_area :text %>
       </p>
-      <p>
-        <%= form.submit %>
-      </p>
+      <div class="actions">
+        <%= form.submit "Вибрати автосервіс" %>
+      </div>
     <% end %>
   </div>

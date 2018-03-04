@@ -10,19 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180228084611) do
+ActiveRecord::Schema.define(version: 20180303101159) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "autoDestroys", force: :cascade do |t|
-    t.string "carYear"
-    t.text "breakdown"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.integer "id_model"
-    t.integer "id_marka"
-  end
 
   create_table "brands", force: :cascade do |t|
     t.string "brand"
@@ -33,6 +24,12 @@ ActiveRecord::Schema.define(version: 20180228084611) do
   create_table "cars", force: :cascade do |t|
     t.bigint "brand_id"
     t.string "model"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "categories", force: :cascade do |t|
+    t.text "category_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
