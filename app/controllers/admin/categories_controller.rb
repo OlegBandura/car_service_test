@@ -1,7 +1,7 @@
 class Admin::CategoriesController < Admin::BaseController
 
   def index
-    @categories = Category.all
+    @categories = Category.order(:category_name)
   end
 
   def new
@@ -10,6 +10,12 @@ class Admin::CategoriesController < Admin::BaseController
   def create
     add_category = Category.new(category_params)
     add_category.save()
+    redirect_to admin_categories_path
+  end
+
+  def destroy
+    category = Category.find(params[:id])
+    category.destroy
     redirect_to admin_categories_path
   end
 
