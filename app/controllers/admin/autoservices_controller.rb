@@ -1,4 +1,5 @@
 class Admin::AutoservicesController < Admin::BaseController
+  load_and_authorize_resource :class => Admin::AutoservicesController
   def index
     @autoservices = Service.all
   end

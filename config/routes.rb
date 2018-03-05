@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root to: 'home#index'
   get 'home/index'
   get 'about/index'
+
   resources :services
   # resource :cars, only: [:new, :create], path_names: {:new => ''}
 

@@ -10,10 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180303101159) do
+ActiveRecord::Schema.define(version: 20180305100533) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "auto_destroys", force: :cascade do |t|
+    t.integer "caregory_id"
+    t.string "car_year"
+    t.text "breakdown"
+    t.bigint "car_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["car_id"], name: "index_auto_destroys_on_car_id"
+  end
 
   create_table "brands", force: :cascade do |t|
     t.string "brand"
@@ -30,6 +40,12 @@ ActiveRecord::Schema.define(version: 20180303101159) do
 
   create_table "categories", force: :cascade do |t|
     t.text "category_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "roles", force: :cascade do |t|
+    t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -69,4 +85,15 @@ ActiveRecord::Schema.define(version: 20180303101159) do
     t.index ["username"], name: "index_users_on_username", unique: true
   end
 
+  create_table "users_roles", force: :cascade do |t|
+    t.bigint "user_id"
+    t.bigint "role_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["role_id"], name: "index_users_roles_on_role_id"
+    t.index ["user_id"], name: "index_users_roles_on_user_id"
+  end
+
+  add_foreign_key "users_roles", "roles"
+  add_foreign_key "users_roles", "users"
 end

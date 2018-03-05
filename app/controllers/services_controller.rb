@@ -1,4 +1,5 @@
 class ServicesController < ApplicationController
+
   def index
 
   end
@@ -8,7 +9,7 @@ class ServicesController < ApplicationController
   end
 
   def new
-    @car = Car.new
+    @car = Car.all
     @categories = Category.order(:category_name)
     @year = Array[]
     Time.current.year.downto(1970) { |n| @year.push(n) }
