@@ -1,4 +1,5 @@
 class Admin::BrandsController < Admin::BaseController
+  load_and_authorize_resource
   def index
     cars = Brand.left_joins(:cars).select('cars.id, cars.brand_id,
       brands.brand, cars.model')

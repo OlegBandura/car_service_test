@@ -20,13 +20,25 @@
           <div class="dropdown pull-right">
             <button type="button" class="btn btn-default btn-xs dropdown-toggle btn-xs-caret" data-toggle="dropdown"> <span class="caret"></span></button>
             <ul class="dropdown-menu">
-              <li><%= link_to "Додати модель автомобіля",  new_admin_car_path %></li>
-              <li><a href="/admin/cars/<%= key["id"] %>/edit">Редагувати модель</a></li>
-              <li><a href="/admin/cars/<%= key["id"] %>" data-confirm="Are you sure?" data-method="delete" >Видалити модель</a></li>
+              <% if can? :create, Car %>
+                <li><%= link_to "Додати модель автомобіля",  new_admin_car_path %></li>
+              <% end %>
+              <% if can? :update, Car %>
+                <li><a href="/admin/cars/<%= key["id"] %>/edit">Редагувати модель</a></li>
+              <% end %>
+              <% if can? :destroy, Car %>
+                <li><a href="/admin/cars/<%= key["id"] %>" data-confirm="Are you sure?" data-method="delete" >Видалити модель</a></li>
+              <% end %>
               <hr>
-              <li><%= link_to "Додати марку автомобіля",  new_admin_brand_path %></li>
-              <li><a href="/admin/brands/<%= key["brand_id"] %>/edit">Редагувати марку</a></li>
-              <li><a href="/admin/brands/<%= key["brand_id"] %>" data-confirm="Are you sure?" data-method="delete" >Видалити марку</a></li>
+              <% if can? :create, Brand %>
+                <li><%= link_to "Додати марку автомобіля",  new_admin_brand_path %></li>
+              <% end %>
+              <% if can? :update, Brand %>
+                <li><a href="/admin/brands/<%= key["brand_id"] %>/edit">Редагувати марку</a></li>
+              <% end %>
+              <% if can? :destroy, Brand %>
+                <li><a href="/admin/brands/<%= key["brand_id"] %>" data-confirm="Are you sure?" data-method="delete" >Видалити марку</a></li>
+              <% end %>
             </ul>
           </div>
         </div>

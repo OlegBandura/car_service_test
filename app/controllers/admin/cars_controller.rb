@@ -1,4 +1,5 @@
 class Admin::CarsController < Admin::BaseController
+  load_and_authorize_resource
   def new
     @brands = Brand.all
   end
