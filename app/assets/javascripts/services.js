@@ -1,4 +1,4 @@
-jQuery(function() {
+$( document ).on('turbolinks:load', function() {
   var cars;
   cars = $('#service_model_id').html();
   console.log(cars);

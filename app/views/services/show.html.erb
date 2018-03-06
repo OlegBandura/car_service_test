@@ -5,7 +5,7 @@
         <span class="diler-center">Диллерський центр</span>
       <% end %>
   </p>
-  <%= image_tag(@service.image, size: "200x200", class: "image-style") %>
+  <%= image_tag(@service.image, size: "200x250", class: "image-style") %>
   <div class = "service-attributes">
     <p>Інформація про сервіс:</p>
     <p>
@@ -14,7 +14,8 @@
     <p>
       вулиця <%= @service.address %>
     </p>
-    <%= submit_tag 'Надіслати заявку на ремонт', class: 'btn btn-primary block-button'%>
+    <p><%= submit_tag 'Надіслати заявку на ремонт', class: 'btn btn-primary show_block-button'%></p>
+    <p><%= link_to 'Повернутись до списку сервісів', services_path, class: 'btn show_block-button'%></p>
     </div>
   </div>
 </div>

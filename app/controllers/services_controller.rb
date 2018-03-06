@@ -1,5 +1,4 @@
 class ServicesController < ApplicationController
-
   def index
     @services = Service.all
   end
@@ -18,7 +17,7 @@ class ServicesController < ApplicationController
   def create
     @car_form = Array[]
     @car_form.push(car_params)
-    # render plain: car_form
+     # render plain: @car_form
     redirect_to services_path
   end
 
