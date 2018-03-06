@@ -33,3 +33,33 @@
 #autoservice_table tr.header, #autoservice_table tr:hover {
     background-color: #f1f1f1;
 }
+
+.preview_service{
+  align-items: center;
+  border-width: 2px;
+  padding: 2px;
+  border-radius: 10px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.image-style{
+  border-radius: 12px;
+}
+
+.block-button{
+  float: right;
+}
+
+.service-attributes{
+  display: inline-block;
+}
+
+.service-title{
+  font-style: oblique;
+  font-size: 30px;
+}
+
+.diler-center{
+  font-size: 12px;
+}

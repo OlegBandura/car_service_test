@@ -1,6 +1,8 @@
 <div id="car_nav_bar">
   <ul>
+    <% if can? :create, Category %>
     <li><%= link_to "Додати нову категорію",  new_admin_category_path %></li>
+    <% end %>
   </ul>
 </div>
 
@@ -13,8 +15,15 @@
     <tr>
       <td><%= category.category_name %></td>
 
-      <td><%= link_to "Edit", edit_admin_category_path(category) %> |   <%= link_to "Delete",
-          admin_category_path(category), method: :delete, data: {confirm: 'Are you sure?' } %>
+      <td>
+        <% if can? :update, Category %>
+          <%= link_to "Edit", edit_admin_category_path(category) %>
+        <% end %>
+          |
+        <% if can? :destroy, Category %>
+          <%= link_to "Delete",admin_category_path(category), method: :delete, data: {confirm: 'Are you sure?' } %>
+        <% end %>
+      </td>
     </tr>
   <% end %>
 </table>

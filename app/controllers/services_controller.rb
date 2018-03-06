@@ -1,11 +1,11 @@
 class ServicesController < ApplicationController
 
   def index
-
+    @services = Service.all
   end
 
   def show
-
+    @service = Service.find(params[:id])
   end
 
   def new
@@ -16,7 +16,10 @@ class ServicesController < ApplicationController
   end
 
   def create
-    render plain: car_params
+    @car_form = Array[]
+    @car_form.push(car_params)
+    # render plain: car_form
+    redirect_to services_path
   end
 
   private

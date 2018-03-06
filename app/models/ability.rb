@@ -8,16 +8,23 @@ class Ability
     if user.has_role? :admin
       can :manage, :all
     elsif user.has_role? :moderator
+      # destroy
       can :destroy, Service
+      can :destroy, Category
       can :destroy, Car
       can :destroy, Brand
+
+      # update
       can :update, Service
+      can :update, Category
       can :update, Brand
       can :update, Car
       # can :destroy, Status # #uncomment this line, author can destroy status
       can :read, :all
     elsif user.has_role? :user
+      # create
       can :create, Service
+      can :create, Category
       can :create, Brand
       can :create, Car
       can :read, :all

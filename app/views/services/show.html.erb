@@ -1,0 +1,20 @@
+<div class="service">
+  <p class="service-title">
+    <%= @service.name %>
+      <% if @service.diler == true %>
+        <span class="diler-center">Диллерський центр</span>
+      <% end %>
+  </p>
+  <%= image_tag(@service.image, size: "200x200", class: "image-style") %>
+  <div class = "service-attributes">
+    <p>Інформація про сервіс:</p>
+    <p>
+      місто <%= @service.city %>
+    </p>
+    <p>
+      вулиця <%= @service.address %>
+    </p>
+    <%= submit_tag 'Надіслати заявку на ремонт', class: 'btn btn-primary block-button'%>
+    </div>
+  </div>
+</div>
