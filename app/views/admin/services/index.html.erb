@@ -1,0 +1,39 @@
+<div id="car_nav_bar">
+  <% if can? :create, Service %>
+  <ul>
+    <li><%= link_to "Додати новий автосервіс",  new_admin_service_path %></li>
+  </ul>
+  <% end %>
+</div>
+
+<input type="text" id="searsh_input" onkeyup="myFunction()" placeholder="Search for names..">
+<table id="autoservice_table">
+  <tr>
+    <th onclick="sort_services_table(0)">Image</th>
+    <th onclick="sort_services_table(1)">Name</th>
+    <th onclick="sort_services_table(2)">City</th>
+    <th onclick="sort_services_table(3)">Address</th>
+    <th onclick="sort_services_table(4)">Diller</th>
+    <th>Edit  / Delete</th>
+  </tr>
+<%  @autoservices.each do |autoservice| %>
+  <tr>
+    <td><%= image_tag(autoservice.image, :alt => "logo", size: "80x50") %></td>
+    <td><%= autoservice.name %></td>
+    <td><%= autoservice.city %></td>
+    <td><%= autoservice.address %></td>
+    <td>
+      <%= if autoservice.diler == true
+            "Диллер сервіс"
+            else
+            ""
+          end %></td>
+        <% if can? :update, autoservice %>
+          <td><%= link_to "Edit", edit_admin_service_path(autoservice) %>
+        <% end %>
+        <% if can? :destroy, autoservice %>
+          |<%= link_to "Delete",admin_service_path(autoservice), method: :delete, data: {confirm: 'Are you sure?' } %>
+        <% end %>
+  </tr>
+<% end %>
+</table>

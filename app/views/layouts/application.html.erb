@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=devise-width, initial-scale=1.0">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   </head>
 
   <body>
@@ -31,21 +32,20 @@
             <li class="nav-item">
               <%= link_to "Про нас", about_index_path, class: "nav-link" %>
             </li>
-            <% if user_signed_in? && current_user.admin? %>
+
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                   Administrator
                 </a>
-
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <%= link_to "Робота з автосервісами",  admin_autoservices_path, class: "dropdown-item" %>
+                  <%= link_to "Робота з автосервісами",  admin_services_path, class: "dropdown-item" %>
                   <%= link_to "Робота з автомобілями", admin_brands_path, class: "dropdown-item" %>
                   <%= link_to "Робота з користувачами", admin_users_path, class: "dropdown-item" %>
                   <%= link_to "Робота з категоріями поломок", admin_categories_path, class: "dropdown-item" %>
                 </div>
               </li>
-            <% end %>
+
           </ul>
         </div>
         <div class="sign_on/Sign_out_links">
